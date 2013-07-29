@@ -1,0 +1,7 @@
+add_subdirectory(AudioCommon)
+add_subdirectory(Common)
+add_subdirectory(Core)
+add_subdirectory(DiscIO)
+add_subdirectory(DolphinWX)
+add_subdirectory(InputCommon)
+add_subdirectory(VideoCommon)
