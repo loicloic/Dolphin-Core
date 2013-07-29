@@ -24,6 +24,26 @@
 /* Begin PBXBuildFile section */
 		8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC18C1785C48600647A96 /* OpenGL.framework */; };
 		8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC1221785B6C400647A96 /* OpenEmuBase.framework */; };
+		EB0214E117A70F2100DA81B3 /* DolphinGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFC1251785B6F700647A96 /* DolphinGameCore.mm */; };
+		EB0214E217A70F2A00DA81B3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB892D0817A6BE450048CBE7 /* Info.plist */; };
+		EB0214E317A7100000DA81B3 /* libaudiocommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89589917A6EDD00048CBE7 /* libaudiocommon.a */; };
+		EB0214E417A7100000DA81B3 /* libbdisasm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89521F17A6C0070048CBE7 /* libbdisasm.a */; };
+		EB0214E517A7100000DA81B3 /* libcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958B617A6F1A90048CBE7 /* libcommon.a */; };
+		EB0214E617A7100000DA81B3 /* libcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958E417A6F2C60048CBE7 /* libcore.a */; };
+		EB0214E717A7100000DA81B3 /* libdiscio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB895A4717A6FCB30048CBE7 /* libdiscio.a */; };
+		EB0214E817A7100000DA81B3 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89529B17A6C9290048CBE7 /* libGLEW.a */; };
+		EB0214E917A7100000DA81B3 /* libinputcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89590417A6F3200048CBE7 /* libinputcommon.a */; };
+		EB0214EA17A7100000DA81B3 /* liblzo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89522C17A6C0B30048CBE7 /* liblzo2.a */; };
+		EB0214EB17A7100000DA81B3 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89588217A6ED3C0048CBE7 /* libpng.a */; };
+		EB0214EC17A7100000DA81B3 /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89524817A6C1A20048CBE7 /* libSDL.a */; };
+		EB0214ED17A7100000DA81B3 /* libsfml-network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89525517A6C4B70048CBE7 /* libsfml-network.a */; };
+		EB0214EE17A7100000DA81B3 /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89528F17A6C8DD0048CBE7 /* libSOIL.a */; };
+		EB0214EF17A7100000DA81B3 /* libSoundTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89523517A6C10B0048CBE7 /* libSoundTouch.a */; };
+		EB0214F017A7100000DA81B3 /* libvideocommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958EC17A6F2E80048CBE7 /* libvideocommon.a */; };
+		EB0214F117A7100000DA81B3 /* libvideoogl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958F417A6F3000048CBE7 /* libvideoogl.a */; };
+		EB0214F217A7100000DA81B3 /* libvideosoftware.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958FC17A6F30D0048CBE7 /* libvideosoftware.a */; };
+		EB0214F317A7100000DA81B3 /* libwx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8952A417A6C9A10048CBE7 /* libwx.a */; };
+		EB0214F417A7100000DA81B3 /* libminiupnpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89521A17A6BFB60048CBE7 /* libminiupnpc.a */; };
 		EB65DF8117A70D6100E77A53 /* scmrev.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF8017A70D6100E77A53 /* scmrev.h */; };
 		EB65DF9F17A70DFC00E77A53 /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */; };
 		EB65DFA017A70DFC00E77A53 /* Debugger_SymbolMap.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */; };
@@ -32,26 +52,6 @@
 		EB65DFA317A70DFC00E77A53 /* GCELF.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9C17A70DFC00E77A53 /* GCELF.h */; };
 		EB65DFA417A70DFC00E77A53 /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */; };
 		EB65DFA517A70DFC00E77A53 /* PPCDebugInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */; };
-		EB8943D717A6BFB40048CBE7 /* CMakeCCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EB892D2417A6BF9D0048CBE7 /* CMakeCCompilerId.o */; };
-		EB8943E217A6BFB40048CBE7 /* CMakeCXXCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EB892D3817A6BF9D0048CBE7 /* CMakeCXXCompilerId.o */; };
-		EB894A5E17A6BFB40048CBE7 /* glew32s.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8933FA17A6BFA90048CBE7 /* glew32s.lib */; };
-		EB894A5F17A6BFB40048CBE7 /* glew64s.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8933FB17A6BFA90048CBE7 /* glew64s.lib */; };
-		EB894A6317A6BFB40048CBE7 /* libjpeg.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89340917A6BFA90048CBE7 /* libjpeg.lib */; };
-		EB894A6417A6BFB40048CBE7 /* libjpeg64.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89340A17A6BFA90048CBE7 /* libjpeg64.lib */; };
-		EB894AB717A6BFB50048CBE7 /* EFX-Util.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89349317A6BFA90048CBE7 /* EFX-Util.lib */; };
-		EB894AB917A6BFB50048CBE7 /* OpenAL32.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89349517A6BFA90048CBE7 /* OpenAL32.lib */; };
-		EB894ABC17A6BFB50048CBE7 /* EFX-Util.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89349917A6BFA90048CBE7 /* EFX-Util.lib */; };
-		EB894ABE17A6BFB50048CBE7 /* OpenAL32.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89349B17A6BFA90048CBE7 /* OpenAL32.lib */; };
-		EB894AC117A6BFB50048CBE7 /* portaudio.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8934AB17A6BFA90048CBE7 /* portaudio.lib */; };
-		EB894AC317A6BFB50048CBE7 /* portaudio.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8934AE17A6BFA90048CBE7 /* portaudio.lib */; };
-		EB894AC517A6BFB50048CBE7 /* portaudio.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8934B117A6BFA90048CBE7 /* portaudio.lib */; };
-		EB894AC717A6BFB50048CBE7 /* portaudio.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8934B517A6BFA90048CBE7 /* portaudio.lib */; };
-		EB894AC917A6BFB50048CBE7 /* portaudio.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8934B817A6BFA90048CBE7 /* portaudio.lib */; };
-		EB894ACB17A6BFB50048CBE7 /* portaudio.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8934BB17A6BFA90048CBE7 /* portaudio.lib */; };
-		EB894AE617A6BFB50048CBE7 /* SDL.1.3.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89356F17A6BFA90048CBE7 /* SDL.1.3.lib */; };
-		EB894AE817A6BFB50048CBE7 /* SDL.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89357117A6BFA90048CBE7 /* SDL.lib */; };
-		EB894AEA17A6BFB50048CBE7 /* SDL.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89357417A6BFA90048CBE7 /* SDL.lib */; };
-		EB894F1C17A6BFB60048CBE7 /* android-support-v13.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = EB893E6517A6BFB20048CBE7 /* android-support-v13.jar */; };
 		EB89522317A6C0800048CBE7 /* dis_decode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8933C117A6BFA90048CBE7 /* dis_decode.cpp */; };
 		EB89522417A6C0800048CBE7 /* dis_groups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8933C217A6BFA90048CBE7 /* dis_groups.cpp */; };
 		EB89522517A6C0800048CBE7 /* PowerPCDisasm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8933C717A6BFA90048CBE7 /* PowerPCDisasm.cpp */; };
@@ -6559,28 +6559,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0214E317A7100000DA81B3 /* libaudiocommon.a in Frameworks */,
+				EB0214E417A7100000DA81B3 /* libbdisasm.a in Frameworks */,
+				EB0214E517A7100000DA81B3 /* libcommon.a in Frameworks */,
+				EB0214E617A7100000DA81B3 /* libcore.a in Frameworks */,
+				EB0214E717A7100000DA81B3 /* libdiscio.a in Frameworks */,
+				EB0214E817A7100000DA81B3 /* libGLEW.a in Frameworks */,
+				EB0214E917A7100000DA81B3 /* libinputcommon.a in Frameworks */,
+				EB0214EA17A7100000DA81B3 /* liblzo2.a in Frameworks */,
+				EB0214EB17A7100000DA81B3 /* libpng.a in Frameworks */,
+				EB0214EC17A7100000DA81B3 /* libSDL.a in Frameworks */,
+				EB0214ED17A7100000DA81B3 /* libsfml-network.a in Frameworks */,
+				EB0214EE17A7100000DA81B3 /* libSOIL.a in Frameworks */,
+				EB0214EF17A7100000DA81B3 /* libSoundTouch.a in Frameworks */,
+				EB0214F017A7100000DA81B3 /* libvideocommon.a in Frameworks */,
+				EB0214F117A7100000DA81B3 /* libvideoogl.a in Frameworks */,
+				EB0214F217A7100000DA81B3 /* libvideosoftware.a in Frameworks */,
+				EB0214F317A7100000DA81B3 /* libwx.a in Frameworks */,
+				EB0214F417A7100000DA81B3 /* libminiupnpc.a in Frameworks */,
 				8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */,
 				8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */,
-				EB8943D717A6BFB40048CBE7 /* CMakeCCompilerId.o in Frameworks */,
-				EB8943E217A6BFB40048CBE7 /* CMakeCXXCompilerId.o in Frameworks */,
-				EB894A5E17A6BFB40048CBE7 /* glew32s.lib in Frameworks */,
-				EB894A5F17A6BFB40048CBE7 /* glew64s.lib in Frameworks */,
-				EB894A6317A6BFB40048CBE7 /* libjpeg.lib in Frameworks */,
-				EB894A6417A6BFB40048CBE7 /* libjpeg64.lib in Frameworks */,
-				EB894AB717A6BFB50048CBE7 /* EFX-Util.lib in Frameworks */,
-				EB894AB917A6BFB50048CBE7 /* OpenAL32.lib in Frameworks */,
-				EB894ABC17A6BFB50048CBE7 /* EFX-Util.lib in Frameworks */,
-				EB894ABE17A6BFB50048CBE7 /* OpenAL32.lib in Frameworks */,
-				EB894AC117A6BFB50048CBE7 /* portaudio.lib in Frameworks */,
-				EB894AC317A6BFB50048CBE7 /* portaudio.lib in Frameworks */,
-				EB894AC517A6BFB50048CBE7 /* portaudio.lib in Frameworks */,
-				EB894AC717A6BFB50048CBE7 /* portaudio.lib in Frameworks */,
-				EB894AC917A6BFB50048CBE7 /* portaudio.lib in Frameworks */,
-				EB894ACB17A6BFB50048CBE7 /* portaudio.lib in Frameworks */,
-				EB894AE617A6BFB50048CBE7 /* SDL.1.3.lib in Frameworks */,
-				EB894AE817A6BFB50048CBE7 /* SDL.lib in Frameworks */,
-				EB894AEA17A6BFB50048CBE7 /* SDL.lib in Frameworks */,
-				EB894F1C17A6BFB60048CBE7 /* android-support-v13.jar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15436,8 +15434,6 @@
 			);
 			projectRoot = "";
 			targets = (
-				8CAFC10E1785B63900647A96 /* Dolphin */,
-				8CBB42FF178C399D00FA270D /* Build & Install Dolphin */,
 				EB89521E17A6C0070048CBE7 /* bdisasm */,
 				EB89522B17A6C0B30048CBE7 /* lzo2 */,
 				EB89523417A6C10B0048CBE7 /* SoundTouch */,
@@ -15456,6 +15452,8 @@
 				EB8958FB17A6F30D0048CBE7 /* videosoftware */,
 				EB89590317A6F3200048CBE7 /* inputcommon */,
 				EB895A4617A6FCB30048CBE7 /* discio */,
+				8CAFC10E1785B63900647A96 /* Dolphin */,
+				8CBB42FF178C399D00FA270D /* Build & Install Dolphin */,
 			);
 		};
 /* End PBXProject section */
@@ -15482,6 +15480,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0214E217A70F2A00DA81B3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15508,6 +15507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0214E117A70F2100DA81B3 /* DolphinGameCore.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16607,9 +16607,8 @@
 					"\"$(SRCROOT)/Dolphin/Common\"",
 					"\"$(SRCROOT)/Dolphin/native\"",
 					"\"$(SRCROOT)/Dolphin/native/ext/glew\"",
-					"\"$(SRCROOT)/Dolphin/ffmpeg/macosx/x86_64/include\"",
 				);
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Dolphin/ffmpeg/macosx/x86_64/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -16665,9 +16664,8 @@
 					"\"$(SRCROOT)/Dolphin/Common\"",
 					"\"$(SRCROOT)/Dolphin/native\"",
 					"\"$(SRCROOT)/Dolphin/native/ext/glew\"",
-					"\"$(SRCROOT)/Dolphin/ffmpeg/macosx/x86_64/include\"",
 				);
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Dolphin/ffmpeg/macosx/x86_64/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = (
 					"-D_NDEBUG",
@@ -16710,6 +16708,32 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Dolphin\"",
+					"\"$(SRCROOT)/Dolphin/Common\"",
+					"\"$(SRCROOT)/Dolphin/native\"",
+					"\"$(SRCROOT)/Dolphin/native/ext/glew\"",
+					/System/Library/Frameworks/OpenAL.framework/Headers,
+					"$(SRCRoot)/Source/Core/AudioCommon/Src",
+					"$(SRCRoot)/Source/Core/Common/Src",
+					"$(SRCRoot)/Source/Core/Core/Src",
+					"$(SRCRoot)/Source/Core/DebuggerUICommon/Src",
+					"$(SRCRoot)/Source/Core/DebuggerWX/Src",
+					"$(SRCRoot)/Source/Core/DiscIO/Src",
+					"$(SRCRoot)/Source/Core/DolphinWX/Src",
+					"$(SRCRoot)/Source/Core/InputCommon/Src",
+					"$(SRCRoot)/Source/Core/VideoCommon/Src",
+					"$(SRCRoot)/Source/Core/VideoUICommon/Src",
+					"$(SRCRoot)/Externals/Bochs_disasm",
+					"$(SRCRoot)/Externals/LZO",
+					"$(SRCRoot)/Externals",
+					"$(SRCRoot)/Externals/SDL/SDL",
+					"$(SRCRoot)/Externals/SDL",
+					"$(SRCRoot)/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include/wx",
+					"$(SRCROOT)/Externals/wxWidgets3/include/wx",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
 				LIBRARY_SEARCH_PATHS = (
@@ -16730,6 +16754,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = oecoreplugin;
 			};
 			name = Debug;
@@ -16753,6 +16778,32 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Dolphin\"",
+					"\"$(SRCROOT)/Dolphin/Common\"",
+					"\"$(SRCROOT)/Dolphin/native\"",
+					"\"$(SRCROOT)/Dolphin/native/ext/glew\"",
+					/System/Library/Frameworks/OpenAL.framework/Headers,
+					"$(SRCRoot)/Source/Core/AudioCommon/Src",
+					"$(SRCRoot)/Source/Core/Common/Src",
+					"$(SRCRoot)/Source/Core/Core/Src",
+					"$(SRCRoot)/Source/Core/DebuggerUICommon/Src",
+					"$(SRCRoot)/Source/Core/DebuggerWX/Src",
+					"$(SRCRoot)/Source/Core/DiscIO/Src",
+					"$(SRCRoot)/Source/Core/DolphinWX/Src",
+					"$(SRCRoot)/Source/Core/InputCommon/Src",
+					"$(SRCRoot)/Source/Core/VideoCommon/Src",
+					"$(SRCRoot)/Source/Core/VideoUICommon/Src",
+					"$(SRCRoot)/Externals/Bochs_disasm",
+					"$(SRCRoot)/Externals/LZO",
+					"$(SRCRoot)/Externals",
+					"$(SRCRoot)/Externals/SDL/SDL",
+					"$(SRCRoot)/Externals/SDL",
+					"$(SRCRoot)/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include/wx",
+					"$(SRCROOT)/Externals/wxWidgets3/include/wx",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
 				LIBRARY_SEARCH_PATHS = (
@@ -16773,6 +16824,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = oecoreplugin;
 			};
 			name = Release;
