@@ -24,6 +24,14 @@
 /* Begin PBXBuildFile section */
 		8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC18C1785C48600647A96 /* OpenGL.framework */; };
 		8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC1221785B6C400647A96 /* OpenEmuBase.framework */; };
+		EB65DF8117A70D6100E77A53 /* scmrev.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF8017A70D6100E77A53 /* scmrev.h */; };
+		EB65DF9F17A70DFC00E77A53 /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */; };
+		EB65DFA017A70DFC00E77A53 /* Debugger_SymbolMap.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */; };
+		EB65DFA117A70DFC00E77A53 /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9A17A70DFC00E77A53 /* Dump.cpp */; };
+		EB65DFA217A70DFC00E77A53 /* Dump.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9B17A70DFC00E77A53 /* Dump.h */; };
+		EB65DFA317A70DFC00E77A53 /* GCELF.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9C17A70DFC00E77A53 /* GCELF.h */; };
+		EB65DFA417A70DFC00E77A53 /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */; };
+		EB65DFA517A70DFC00E77A53 /* PPCDebugInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */; };
 		EB8943D717A6BFB40048CBE7 /* CMakeCCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EB892D2417A6BF9D0048CBE7 /* CMakeCCompilerId.o */; };
 		EB8943E217A6BFB40048CBE7 /* CMakeCXXCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = EB892D3817A6BF9D0048CBE7 /* CMakeCXXCompilerId.o */; };
 		EB894A5E17A6BFB40048CBE7 /* glew32s.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8933FA17A6BFA90048CBE7 /* glew32s.lib */; };
@@ -877,9 +885,6 @@
 		EB895A3D17A6F9740048CBE7 /* Tracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8940D117A6BFB30048CBE7 /* Tracer.cpp */; };
 		EB895A3E17A6F9740048CBE7 /* VolumeHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8940D317A6BFB30048CBE7 /* VolumeHandler.cpp */; };
 		EB895A3F17A6F9740048CBE7 /* x64MemTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8940D517A6BFB30048CBE7 /* x64MemTools.cpp */; };
-		EB895A4017A6FA130048CBE7 /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB893F5617A6BFB20048CBE7 /* Debugger_SymbolMap.cpp */; };
-		EB895A4117A6FA130048CBE7 /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB893F5817A6BFB20048CBE7 /* Dump.cpp */; };
-		EB895A4217A6FA130048CBE7 /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB893F5B17A6BFB20048CBE7 /* PPCDebugInterface.cpp */; };
 		EB895A4D17A6FD0C0048CBE7 /* BannerLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8940E217A6BFB30048CBE7 /* BannerLoader.cpp */; };
 		EB895A4E17A6FD0C0048CBE7 /* BannerLoaderGC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8940E417A6BFB30048CBE7 /* BannerLoaderGC.cpp */; };
 		EB895A4F17A6FD0C0048CBE7 /* BannerLoaderWii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8940E617A6BFB30048CBE7 /* BannerLoaderWii.cpp */; };
@@ -1037,6 +1042,14 @@
 		8CAFC1251785B6F700647A96 /* DolphinGameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DolphinGameCore.mm; sourceTree = "<group>"; };
 		8CAFC18C1785C48600647A96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		8CB3FB7A1786D2E500A3C50D /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEGCSystemResponderClient.h; path = ../OpenEmu/PSP/OEGCSystemResponderClient.h; sourceTree = "<group>"; };
+		EB65DF8017A70D6100E77A53 /* scmrev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scmrev.h; sourceTree = "<group>"; };
+		EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Debugger_SymbolMap.cpp; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Debugger_SymbolMap.cpp"; sourceTree = "<group>"; };
+		EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Debugger_SymbolMap.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Debugger_SymbolMap.h"; sourceTree = "<group>"; };
+		EB65DF9A17A70DFC00E77A53 /* Dump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dump.cpp; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Dump.cpp"; sourceTree = "<group>"; };
+		EB65DF9B17A70DFC00E77A53 /* Dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dump.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Dump.h"; sourceTree = "<group>"; };
+		EB65DF9C17A70DFC00E77A53 /* GCELF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCELF.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/GCELF.h"; sourceTree = "<group>"; };
+		EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PPCDebugInterface.cpp; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/PPCDebugInterface.cpp"; sourceTree = "<group>"; };
+		EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCDebugInterface.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/PPCDebugInterface.h"; sourceTree = "<group>"; };
 		EB892D0717A6BE450048CBE7 /* Dolphin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dolphin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		EB892D0817A6BE450048CBE7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		EB892D0B17A6BF9D0048CBE7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -5489,13 +5502,6 @@
 		EB893F5217A6BFB20048CBE7 /* CoreParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreParameter.h; sourceTree = "<group>"; };
 		EB893F5317A6BFB20048CBE7 /* CoreTiming.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoreTiming.cpp; sourceTree = "<group>"; };
 		EB893F5417A6BFB20048CBE7 /* CoreTiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTiming.h; sourceTree = "<group>"; };
-		EB893F5617A6BFB20048CBE7 /* Debugger_SymbolMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Debugger_SymbolMap.cpp; sourceTree = "<group>"; };
-		EB893F5717A6BFB20048CBE7 /* Debugger_SymbolMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debugger_SymbolMap.h; sourceTree = "<group>"; };
-		EB893F5817A6BFB20048CBE7 /* Dump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dump.cpp; sourceTree = "<group>"; };
-		EB893F5917A6BFB20048CBE7 /* Dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dump.h; sourceTree = "<group>"; };
-		EB893F5A17A6BFB20048CBE7 /* GCELF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCELF.h; sourceTree = "<group>"; };
-		EB893F5B17A6BFB20048CBE7 /* PPCDebugInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PPCDebugInterface.cpp; sourceTree = "<group>"; };
-		EB893F5C17A6BFB20048CBE7 /* PPCDebugInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCDebugInterface.h; sourceTree = "<group>"; };
 		EB893F5E17A6BFB20048CBE7 /* assemble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assemble.cpp; sourceTree = "<group>"; };
 		EB893F5F17A6BFB20048CBE7 /* assemble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assemble.h; sourceTree = "<group>"; };
 		EB893F6017A6BFB20048CBE7 /* disassemble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = disassemble.cpp; sourceTree = "<group>"; };
@@ -12923,6 +12929,7 @@
 		EB893ECC17A6BFB20048CBE7 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				EB65DF8017A70D6100E77A53 /* scmrev.h */,
 				EB893ECD17A6BFB20048CBE7 /* ArmCPUDetect.cpp */,
 				EB893ECE17A6BFB20048CBE7 /* ArmEmitter.cpp */,
 				EB893ECF17A6BFB20048CBE7 /* ArmEmitter.h */,
@@ -13138,13 +13145,13 @@
 		EB893F5517A6BFB20048CBE7 /* Debugger */ = {
 			isa = PBXGroup;
 			children = (
-				EB893F5617A6BFB20048CBE7 /* Debugger_SymbolMap.cpp */,
-				EB893F5717A6BFB20048CBE7 /* Debugger_SymbolMap.h */,
-				EB893F5817A6BFB20048CBE7 /* Dump.cpp */,
-				EB893F5917A6BFB20048CBE7 /* Dump.h */,
-				EB893F5A17A6BFB20048CBE7 /* GCELF.h */,
-				EB893F5B17A6BFB20048CBE7 /* PPCDebugInterface.cpp */,
-				EB893F5C17A6BFB20048CBE7 /* PPCDebugInterface.h */,
+				EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */,
+				EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */,
+				EB65DF9A17A70DFC00E77A53 /* Dump.cpp */,
+				EB65DF9B17A70DFC00E77A53 /* Dump.h */,
+				EB65DF9C17A70DFC00E77A53 /* GCELF.h */,
+				EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */,
+				EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */,
 			);
 			path = Debugger;
 			sourceTree = "<group>";
@@ -15005,6 +15012,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB65DF8117A70D6100E77A53 /* scmrev.h in Headers */,
+				EB65DFA017A70DFC00E77A53 /* Debugger_SymbolMap.h in Headers */,
+				EB65DFA217A70DFC00E77A53 /* Dump.h in Headers */,
+				EB65DFA317A70DFC00E77A53 /* GCELF.h in Headers */,
+				EB65DFA517A70DFC00E77A53 /* PPCDebugInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16126,6 +16138,9 @@
 				EB8958DD17A6F22C0048CBE7 /* x64Emitter.cpp in Sources */,
 				EB8958DE17A6F22C0048CBE7 /* x64FPURoundMode.cpp in Sources */,
 				EB8958DF17A6F22C0048CBE7 /* x64Thunk.cpp in Sources */,
+				EB65DF9F17A70DFC00E77A53 /* Debugger_SymbolMap.cpp in Sources */,
+				EB65DFA117A70DFC00E77A53 /* Dump.cpp in Sources */,
+				EB65DFA417A70DFC00E77A53 /* PPCDebugInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16177,9 +16192,6 @@
 				EB8959A717A6F9740048CBE7 /* DSPJitUtil.cpp in Sources */,
 				EB8959A817A6F9740048CBE7 /* LabelMap.cpp in Sources */,
 				EB8959A917A6F9740048CBE7 /* DSPEmulator.cpp in Sources */,
-				EB895A4017A6FA130048CBE7 /* Debugger_SymbolMap.cpp in Sources */,
-				EB895A4117A6FA130048CBE7 /* Dump.cpp in Sources */,
-				EB895A4217A6FA130048CBE7 /* PPCDebugInterface.cpp in Sources */,
 				EB8959AA17A6F9740048CBE7 /* FifoAnalyzer.cpp in Sources */,
 				EB8959AB17A6F9740048CBE7 /* FifoDataFile.cpp in Sources */,
 				EB8959AC17A6F9740048CBE7 /* FifoPlaybackAnalyzer.cpp in Sources */,
