@@ -1,7 +1,9 @@
 #include <Foundation/Foundation.h>
 #include <IOKit/hid/IOHIDLib.h>
 #include <Cocoa/Cocoa.h>
+#ifndef OPENEMU
 #include <wx/wx.h> // wxWidgets
+#endif
 
 #include "OSXKeyboard.h"
 
@@ -43,9 +45,12 @@ Keyboard::Keyboard(IOHIDDeviceRef device, std::string name, int index, void *win
 		}
 		CFRelease(elements);
 	}
-
+    
+#ifndef OPENEMU
 	m_windowid = [[(NSView *)(((wxWindow *)window)->GetHandle()) window] windowNumber];
-
+#else
+    m_windowid = 0;
+#endif
 	// cursor, with a hax for-loop
 	for (unsigned int i=0; i<4; ++i)
 		AddInput(new Cursor(!!(i&2), (&m_cursor.x)[i/2], !!(i&1)));

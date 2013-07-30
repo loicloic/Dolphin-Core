@@ -1,8 +1,8 @@
-# Install script for directory: /Users/loic/Desktop/dolphin-emu/Source/Core
+# Install script for directory: /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/Users/loic/Desktop/dolphin-emu/install-dummy")
+  SET(CMAKE_INSTALL_PREFIX "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/install-dummy")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,13 +29,13 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/Common/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/Core/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

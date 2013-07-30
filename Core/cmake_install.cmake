@@ -1,8 +1,8 @@
-# Install script for directory: /Users/loic/Desktop/dolphin-emu
+# Install script for directory: /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/Users/loic/Desktop/dolphin-emu/install-dummy")
+  SET(CMAKE_INSTALL_PREFIX "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/install-dummy")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,16 +29,15 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/LZO/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/soundtouch/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/SDL/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/SFML/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/SOIL/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/GLew/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/cmake_install.cmake")
-  INCLUDE("/Users/loic/Desktop/dolphin-emu/Source/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/soundtouch/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SOIL/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/GLew/cmake_install.cmake")
+  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -48,7 +47,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/Users/loic/Desktop/dolphin-emu/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/Users/loic/Desktop/dolphin-emu/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
