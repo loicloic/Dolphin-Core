@@ -58,19 +58,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-54E7B26D270D442F9FB89604 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F46622E0041E41E8AE1BEF27 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
-E5C752C6E0054AEB8A783E0D /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/connecthostport.c */ = {isa = PBXBuildFile; fileRef = 9D214499C0BB452FBE0CCFBE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/connecthostport.c */; settings = { COMPILER_FLAGS = ""; }; };
-130886E0E7244C979631F7BE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/igd_desc_parse.c */ = {isa = PBXBuildFile; fileRef = 31BE87D7839B4C98896E64F7 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/igd_desc_parse.c */; settings = { COMPILER_FLAGS = ""; }; };
-A4F57BF1D20E49F0B1BFA599 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minisoap.c */ = {isa = PBXBuildFile; fileRef = 3F6AFBF09C714784916620CE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minisoap.c */; settings = { COMPILER_FLAGS = ""; }; };
-CD6C2D29CD2B4002BFA6D543 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniupnpc.c */ = {isa = PBXBuildFile; fileRef = 832E6C518D8B464485265F55 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniupnpc.c */; settings = { COMPILER_FLAGS = ""; }; };
-A2B82BAF96AA460187D85FC2 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniwget.c */ = {isa = PBXBuildFile; fileRef = DD5C12FF72EC411A9A3F0CCE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniwget.c */; settings = { COMPILER_FLAGS = ""; }; };
-0F7811962D814B6E84EC48FB /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minixml.c */ = {isa = PBXBuildFile; fileRef = 49A76024D48049608A4CE73E /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minixml.c */; settings = { COMPILER_FLAGS = ""; }; };
-301CA170F74642B687E34981 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/portlistingparse.c */ = {isa = PBXBuildFile; fileRef = 115F16C551E24C76B207C34F /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/portlistingparse.c */; settings = { COMPILER_FLAGS = ""; }; };
-70F89DF52CD84DFA8113A253 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/receivedata.c */ = {isa = PBXBuildFile; fileRef = FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/receivedata.c */; settings = { COMPILER_FLAGS = ""; }; };
-E2A641B99F4E4176B5677025 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpc.c */ = {isa = PBXBuildFile; fileRef = 349529A15A6A41D58D5A570B /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpc.c */; settings = { COMPILER_FLAGS = ""; }; };
-4531602CD744486A9E82DAE1 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpcommands.c */ = {isa = PBXBuildFile; fileRef = 7C053D48DA2441798C3996AE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpcommands.c */; settings = { COMPILER_FLAGS = ""; }; };
-1FE4EAC31E564EFA93653935 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnperrors.c */ = {isa = PBXBuildFile; fileRef = 8256B29880C24EB881B320B3 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnperrors.c */; settings = { COMPILER_FLAGS = ""; }; };
-C04B6366FBC0434DB82C0AF6 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpreplyparse.c */ = {isa = PBXBuildFile; fileRef = 31B6C00CFCB742A291CA9F81 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpreplyparse.c */; settings = { COMPILER_FLAGS = ""; }; };
+54E7B26D270D442F9FB89604 /* $(SRCROOT)/Core/Externals/miniupnpc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F46622E0041E41E8AE1BEF27 /* $(SRCROOT)/Core/Externals/miniupnpc/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+E5C752C6E0054AEB8A783E0D /* $(SRCROOT)/Core/Externals/miniupnpc/src/connecthostport.c */ = {isa = PBXBuildFile; fileRef = 9D214499C0BB452FBE0CCFBE /* $(SRCROOT)/Core/Externals/miniupnpc/src/connecthostport.c */; settings = { COMPILER_FLAGS = ""; }; };
+130886E0E7244C979631F7BE /* $(SRCROOT)/Core/Externals/miniupnpc/src/igd_desc_parse.c */ = {isa = PBXBuildFile; fileRef = 31BE87D7839B4C98896E64F7 /* $(SRCROOT)/Core/Externals/miniupnpc/src/igd_desc_parse.c */; settings = { COMPILER_FLAGS = ""; }; };
+A4F57BF1D20E49F0B1BFA599 /* $(SRCROOT)/Core/Externals/miniupnpc/src/minisoap.c */ = {isa = PBXBuildFile; fileRef = 3F6AFBF09C714784916620CE /* $(SRCROOT)/Core/Externals/miniupnpc/src/minisoap.c */; settings = { COMPILER_FLAGS = ""; }; };
+CD6C2D29CD2B4002BFA6D543 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniupnpc.c */ = {isa = PBXBuildFile; fileRef = 832E6C518D8B464485265F55 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniupnpc.c */; settings = { COMPILER_FLAGS = ""; }; };
+A2B82BAF96AA460187D85FC2 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniwget.c */ = {isa = PBXBuildFile; fileRef = DD5C12FF72EC411A9A3F0CCE /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniwget.c */; settings = { COMPILER_FLAGS = ""; }; };
+0F7811962D814B6E84EC48FB /* $(SRCROOT)/Core/Externals/miniupnpc/src/minixml.c */ = {isa = PBXBuildFile; fileRef = 49A76024D48049608A4CE73E /* $(SRCROOT)/Core/Externals/miniupnpc/src/minixml.c */; settings = { COMPILER_FLAGS = ""; }; };
+301CA170F74642B687E34981 /* $(SRCROOT)/Core/Externals/miniupnpc/src/portlistingparse.c */ = {isa = PBXBuildFile; fileRef = 115F16C551E24C76B207C34F /* $(SRCROOT)/Core/Externals/miniupnpc/src/portlistingparse.c */; settings = { COMPILER_FLAGS = ""; }; };
+70F89DF52CD84DFA8113A253 /* $(SRCROOT)/Core/Externals/miniupnpc/src/receivedata.c */ = {isa = PBXBuildFile; fileRef = FA21B002496E4D33A6735189 /* $(SRCROOT)/Core/Externals/miniupnpc/src/receivedata.c */; settings = { COMPILER_FLAGS = ""; }; };
+E2A641B99F4E4176B5677025 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpc.c */ = {isa = PBXBuildFile; fileRef = 349529A15A6A41D58D5A570B /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpc.c */; settings = { COMPILER_FLAGS = ""; }; };
+4531602CD744486A9E82DAE1 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpcommands.c */ = {isa = PBXBuildFile; fileRef = 7C053D48DA2441798C3996AE /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpcommands.c */; settings = { COMPILER_FLAGS = ""; }; };
+1FE4EAC31E564EFA93653935 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnperrors.c */ = {isa = PBXBuildFile; fileRef = 8256B29880C24EB881B320B3 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnperrors.c */; settings = { COMPILER_FLAGS = ""; }; };
+C04B6366FBC0434DB82C0AF6 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpreplyparse.c */ = {isa = PBXBuildFile; fileRef = 31B6C00CFCB742A291CA9F81 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpreplyparse.c */; settings = { COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
@@ -146,19 +146,19 @@ C04B6366FBC0434DB82C0AF6 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-F46622E0041E41E8AE1BEF27 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-9D214499C0BB452FBE0CCFBE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/connecthostport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "connecthostport.c"; path = "src/connecthostport.c"; sourceTree = SOURCE_ROOT; };
-31BE87D7839B4C98896E64F7 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/igd_desc_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "igd_desc_parse.c"; path = "src/igd_desc_parse.c"; sourceTree = SOURCE_ROOT; };
-3F6AFBF09C714784916620CE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minisoap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "minisoap.c"; path = "src/minisoap.c"; sourceTree = SOURCE_ROOT; };
-832E6C518D8B464485265F55 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniupnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "miniupnpc.c"; path = "src/miniupnpc.c"; sourceTree = SOURCE_ROOT; };
-DD5C12FF72EC411A9A3F0CCE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniwget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "miniwget.c"; path = "src/miniwget.c"; sourceTree = SOURCE_ROOT; };
-49A76024D48049608A4CE73E /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minixml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "minixml.c"; path = "src/minixml.c"; sourceTree = SOURCE_ROOT; };
-115F16C551E24C76B207C34F /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/portlistingparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "portlistingparse.c"; path = "src/portlistingparse.c"; sourceTree = SOURCE_ROOT; };
-FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/receivedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "receivedata.c"; path = "src/receivedata.c"; sourceTree = SOURCE_ROOT; };
-349529A15A6A41D58D5A570B /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnpc.c"; path = "src/upnpc.c"; sourceTree = SOURCE_ROOT; };
-7C053D48DA2441798C3996AE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpcommands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnpcommands.c"; path = "src/upnpcommands.c"; sourceTree = SOURCE_ROOT; };
-8256B29880C24EB881B320B3 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnperrors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnperrors.c"; path = "src/upnperrors.c"; sourceTree = SOURCE_ROOT; };
-31B6C00CFCB742A291CA9F81 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpreplyparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnpreplyparse.c"; path = "src/upnpreplyparse.c"; sourceTree = SOURCE_ROOT; };
+F46622E0041E41E8AE1BEF27 /* $(SRCROOT)/Core/Externals/miniupnpc/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+9D214499C0BB452FBE0CCFBE /* $(SRCROOT)/Core/Externals/miniupnpc/src/connecthostport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "connecthostport.c"; path = "src/connecthostport.c"; sourceTree = SOURCE_ROOT; };
+31BE87D7839B4C98896E64F7 /* $(SRCROOT)/Core/Externals/miniupnpc/src/igd_desc_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "igd_desc_parse.c"; path = "src/igd_desc_parse.c"; sourceTree = SOURCE_ROOT; };
+3F6AFBF09C714784916620CE /* $(SRCROOT)/Core/Externals/miniupnpc/src/minisoap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "minisoap.c"; path = "src/minisoap.c"; sourceTree = SOURCE_ROOT; };
+832E6C518D8B464485265F55 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniupnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "miniupnpc.c"; path = "src/miniupnpc.c"; sourceTree = SOURCE_ROOT; };
+DD5C12FF72EC411A9A3F0CCE /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniwget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "miniwget.c"; path = "src/miniwget.c"; sourceTree = SOURCE_ROOT; };
+49A76024D48049608A4CE73E /* $(SRCROOT)/Core/Externals/miniupnpc/src/minixml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "minixml.c"; path = "src/minixml.c"; sourceTree = SOURCE_ROOT; };
+115F16C551E24C76B207C34F /* $(SRCROOT)/Core/Externals/miniupnpc/src/portlistingparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "portlistingparse.c"; path = "src/portlistingparse.c"; sourceTree = SOURCE_ROOT; };
+FA21B002496E4D33A6735189 /* $(SRCROOT)/Core/Externals/miniupnpc/src/receivedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "receivedata.c"; path = "src/receivedata.c"; sourceTree = SOURCE_ROOT; };
+349529A15A6A41D58D5A570B /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnpc.c"; path = "src/upnpc.c"; sourceTree = SOURCE_ROOT; };
+7C053D48DA2441798C3996AE /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpcommands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnpcommands.c"; path = "src/upnpcommands.c"; sourceTree = SOURCE_ROOT; };
+8256B29880C24EB881B320B3 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnperrors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnperrors.c"; path = "src/upnperrors.c"; sourceTree = SOURCE_ROOT; };
+31B6C00CFCB742A291CA9F81 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpreplyparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "upnpreplyparse.c"; path = "src/upnpreplyparse.c"; sourceTree = SOURCE_ROOT; };
 6E88B1DF351944D5B51008A7 /* miniupnpc */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libminiupnpc.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,7 @@ FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core
                      isa = PBXGroup;
                      children = (
                             F3F1257567B34E87ADE9186C /* CMake Rules */,
-                            F46622E0041E41E8AE1BEF27 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeLists.txt */,
+                            F46622E0041E41E8AE1BEF27 /* $(SRCROOT)/Core/Externals/miniupnpc/CMakeLists.txt */,
                      );
                      name = ALL_BUILD;
                      sourceTree = "<group>";
@@ -209,7 +209,7 @@ FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core
                      isa = PBXGroup;
                      children = (
                             90241043F3534CCBBD8576EE /* CMake Rules */,
-                            F46622E0041E41E8AE1BEF27 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeLists.txt */,
+                            F46622E0041E41E8AE1BEF27 /* $(SRCROOT)/Core/Externals/miniupnpc/CMakeLists.txt */,
                      );
                      name = ZERO_CHECK;
                      sourceTree = "<group>";
@@ -225,7 +225,7 @@ FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core
                      isa = PBXGroup;
                      children = (
                             D05B7C9DEA4D445083BBEFC2 /* Source Files */,
-                            F46622E0041E41E8AE1BEF27 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeLists.txt */,
+                            F46622E0041E41E8AE1BEF27 /* $(SRCROOT)/Core/Externals/miniupnpc/CMakeLists.txt */,
                      );
                      name = miniupnpc;
                      sourceTree = "<group>";
@@ -233,18 +233,18 @@ FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core
               D05B7C9DEA4D445083BBEFC2 /* Source Files */ = {
                      isa = PBXGroup;
                      children = (
-                            9D214499C0BB452FBE0CCFBE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/connecthostport.c */,
-                            31BE87D7839B4C98896E64F7 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/igd_desc_parse.c */,
-                            3F6AFBF09C714784916620CE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minisoap.c */,
-                            832E6C518D8B464485265F55 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniupnpc.c */,
-                            DD5C12FF72EC411A9A3F0CCE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniwget.c */,
-                            49A76024D48049608A4CE73E /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minixml.c */,
-                            115F16C551E24C76B207C34F /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/portlistingparse.c */,
-                            FA21B002496E4D33A6735189 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/receivedata.c */,
-                            349529A15A6A41D58D5A570B /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpc.c */,
-                            7C053D48DA2441798C3996AE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpcommands.c */,
-                            8256B29880C24EB881B320B3 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnperrors.c */,
-                            31B6C00CFCB742A291CA9F81 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpreplyparse.c */,
+                            9D214499C0BB452FBE0CCFBE /* $(SRCROOT)/Core/Externals/miniupnpc/src/connecthostport.c */,
+                            31BE87D7839B4C98896E64F7 /* $(SRCROOT)/Core/Externals/miniupnpc/src/igd_desc_parse.c */,
+                            3F6AFBF09C714784916620CE /* $(SRCROOT)/Core/Externals/miniupnpc/src/minisoap.c */,
+                            832E6C518D8B464485265F55 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniupnpc.c */,
+                            DD5C12FF72EC411A9A3F0CCE /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniwget.c */,
+                            49A76024D48049608A4CE73E /* $(SRCROOT)/Core/Externals/miniupnpc/src/minixml.c */,
+                            115F16C551E24C76B207C34F /* $(SRCROOT)/Core/Externals/miniupnpc/src/portlistingparse.c */,
+                            FA21B002496E4D33A6735189 /* $(SRCROOT)/Core/Externals/miniupnpc/src/receivedata.c */,
+                            349529A15A6A41D58D5A570B /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpc.c */,
+                            7C053D48DA2441798C3996AE /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpcommands.c */,
+                            8256B29880C24EB881B320B3 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnperrors.c */,
+                            31B6C00CFCB742A291CA9F81 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpreplyparse.c */,
                      );
                      name = "Source Files";
                      sourceTree = "<group>";
@@ -333,7 +333,7 @@ exit 0";
                      name = "CMake Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C $(SRCROOT)/Core/Externals/miniupnpc -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
               CDB3BB4B389C4BF4A4BB3E5F /*  */ = {
@@ -359,7 +359,7 @@ exit 0";
                      name = "CMake Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C $(SRCROOT)/Core/Externals/miniupnpc -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
               D1881AA7DF12469E8B87DD61 /*  */ = {
@@ -385,7 +385,7 @@ exit 0";
                      name = "CMake PostBuild Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C $(SRCROOT)/Core/Externals/miniupnpc -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
               057CE3FDA2C0460494A84A8B /* CMake PostBuild Rules */ = {
@@ -396,7 +396,7 @@ exit 0";
                      name = "CMake PostBuild Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/miniupnpc_postBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C $(SRCROOT)/Core/Externals/miniupnpc -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/miniupnpc_postBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
               105751D4364F48C5BFD5215E /*  */ = {
@@ -422,7 +422,7 @@ exit 0";
                      name = "CMake PostBuild Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C $(SRCROOT)/Core/Externals/miniupnpc -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
 /* End PBXShellScriptBuildPhase section */
@@ -432,18 +432,18 @@ exit 0";
                      isa = PBXSourcesBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
-                            E5C752C6E0054AEB8A783E0D /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/connecthostport.c */,
-                            130886E0E7244C979631F7BE /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/igd_desc_parse.c */,
-                            A4F57BF1D20E49F0B1BFA599 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minisoap.c */,
-                            CD6C2D29CD2B4002BFA6D543 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniupnpc.c */,
-                            A2B82BAF96AA460187D85FC2 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/miniwget.c */,
-                            0F7811962D814B6E84EC48FB /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/minixml.c */,
-                            301CA170F74642B687E34981 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/portlistingparse.c */,
-                            70F89DF52CD84DFA8113A253 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/receivedata.c */,
-                            E2A641B99F4E4176B5677025 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpc.c */,
-                            4531602CD744486A9E82DAE1 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpcommands.c */,
-                            1FE4EAC31E564EFA93653935 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnperrors.c */,
-                            C04B6366FBC0434DB82C0AF6 /* /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/src/upnpreplyparse.c */,
+                            E5C752C6E0054AEB8A783E0D /* $(SRCROOT)/Core/Externals/miniupnpc/src/connecthostport.c */,
+                            130886E0E7244C979631F7BE /* $(SRCROOT)/Core/Externals/miniupnpc/src/igd_desc_parse.c */,
+                            A4F57BF1D20E49F0B1BFA599 /* $(SRCROOT)/Core/Externals/miniupnpc/src/minisoap.c */,
+                            CD6C2D29CD2B4002BFA6D543 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniupnpc.c */,
+                            A2B82BAF96AA460187D85FC2 /* $(SRCROOT)/Core/Externals/miniupnpc/src/miniwget.c */,
+                            0F7811962D814B6E84EC48FB /* $(SRCROOT)/Core/Externals/miniupnpc/src/minixml.c */,
+                            301CA170F74642B687E34981 /* $(SRCROOT)/Core/Externals/miniupnpc/src/portlistingparse.c */,
+                            70F89DF52CD84DFA8113A253 /* $(SRCROOT)/Core/Externals/miniupnpc/src/receivedata.c */,
+                            E2A641B99F4E4176B5677025 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpc.c */,
+                            4531602CD744486A9E82DAE1 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpcommands.c */,
+                            1FE4EAC31E564EFA93653935 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnperrors.c */,
+                            C04B6366FBC0434DB82C0AF6 /* $(SRCROOT)/Core/Externals/miniupnpc/src/upnpreplyparse.c */,
                      );
                      runOnlyForDeploymentPostprocessing = 0;
               };
@@ -484,7 +484,7 @@ exit 0";
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
                             SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/build";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc/build";
                      };
                      name = Debug;
               };
@@ -494,7 +494,7 @@ exit 0";
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
                             SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/build";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc/build";
                      };
                      name = Release;
               };
@@ -504,7 +504,7 @@ exit 0";
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
                             SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/build";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc/build";
                      };
                      name = MinSizeRel;
               };
@@ -514,7 +514,7 @@ exit 0";
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
                             SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/build";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc/build";
                      };
                      name = RelWithDebInfo;
               };
@@ -527,14 +527,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -549,14 +549,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -571,14 +571,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -593,14 +593,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -615,14 +615,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ZERO_CHECK;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -637,14 +637,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ZERO_CHECK;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -659,14 +659,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ZERO_CHECK;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -681,14 +681,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ZERO_CHECK;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -703,14 +703,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -725,14 +725,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -747,14 +747,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -769,14 +769,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -793,7 +793,7 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
                             OTHER_CFLAGS = " -x objective-c -stdlib=libc++ -arch x86_64 -mmacosx-version-min=10.7 -mssse3 -march=core2      -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
@@ -801,7 +801,7 @@ exit 0";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = miniupnpc;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -818,7 +818,7 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 3;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
                             OTHER_CFLAGS = " -x objective-c -stdlib=libc++ -arch x86_64 -mmacosx-version-min=10.7 -mssse3 -march=core2     -DNDEBUG   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
@@ -826,7 +826,7 @@ exit 0";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = miniupnpc;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -843,7 +843,7 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = s;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
                             OTHER_CFLAGS = " -x objective-c -stdlib=libc++ -arch x86_64 -mmacosx-version-min=10.7 -mssse3 -march=core2     -DNDEBUG   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
@@ -851,7 +851,7 @@ exit 0";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = miniupnpc;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -868,7 +868,7 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 2;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
                             OTHER_CFLAGS = " -x objective-c -stdlib=libc++ -arch x86_64 -mmacosx-version-min=10.7 -mssse3 -march=core2        -DNDEBUG   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
@@ -876,7 +876,7 @@ exit 0";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = miniupnpc;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -891,14 +891,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = package;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -913,14 +913,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = package;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -935,14 +935,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = package;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -957,14 +957,14 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'USER_DIR=\".dolphin-emu\"'", "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_XRANDR=0'", "'HAVE_X11_XINPUT2=0'", "'HAVE_PORTAUDIO=0'", MINIUPNPC_SET_SOCKET_TIMEOUT, _BSD_SOURCE, "'_POSIX_C_SOURCE=1'", MACOSX, _DARWIN_C_SOURCE, );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/AudioCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Common/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/Core/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DebuggerWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DiscIO/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/InputCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoCommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/VideoUICommon/Src", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/include", "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/include", );
+                            HEADER_SEARCH_PATHS = ("/System/Library/Frameworks/OpenAL.framework/Headers", "$(SRCROOT)/Core/Source/Core/AudioCommon/Src", "$(SRCROOT)/Core/Source/Core/Common/Src", "$(SRCROOT)/Core/Source/Core/Core/Src", "$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src", "$(SRCROOT)/Core/Source/Core/DebuggerWX/Src", "$(SRCROOT)/Core/Source/Core/DiscIO/Src", "$(SRCROOT)/Core/Source/Core/DolphinWX/Src", "$(SRCROOT)/Core/Source/Core/InputCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoCommon/Src", "$(SRCROOT)/Core/Source/Core/VideoUICommon/Src", "$(SRCROOT)/Core/Externals/Bochs_disasm", "$(SRCROOT)/Core/Externals/LZO", "$(SRCROOT)/Core/Externals", "$(SRCROOT)/Core/Externals/SDL/SDL", "$(SRCROOT)/Core/Externals/SDL", "$(SRCROOT)/Core/Externals/SDL/include", "$(SRCROOT)/Core/Externals/SFML/include", "$(SRCROOT)/Core/Externals/miniupnpc/include", );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "   -msse2 -Wall -fno-strict-aliasing -fno-exceptions -Wno-unknown-pragmas";
                             OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = package;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc";
+                            SYMROOT = "$(SRCROOT)/Core/Externals/miniupnpc";
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };

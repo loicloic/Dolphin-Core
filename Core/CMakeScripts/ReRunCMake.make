@@ -79,4 +79,4 @@ $(SRCROOT)/Core/Source/Plugins/Plugin_VideoSoftware/CMakeLists.txt\
 /usr/local/Cellar/cmake/2.8.11.2/share/cmake/Modules/Platform/Darwin.cmake\
 /usr/local/Cellar/cmake/2.8.11.2/share/cmake/Modules/Platform/UnixPaths.cmake\
 /usr/local/Cellar/cmake/2.8.11.2/share/cmake/Templates/CPackConfig.cmake.in
-	/usr/local/Cellar/cmake/2.8.11.2/bin/cmake -H$(SRCROOT)/Core -B$(SRCROOT)/Core
+	cmake -H$(SRCROOT)/Core -B$(SRCROOT)/Core

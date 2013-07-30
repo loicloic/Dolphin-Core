@@ -1,8 +1,8 @@
-# Install script for directory: /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core
+# Install script for directory: $(SRCROOT)/Core
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/install-dummy")
+  SET(CMAKE_INSTALL_PREFIX "$(SRCROOT)/Core/install-dummy")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,15 +29,15 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/Bochs_disasm/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/LZO/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/soundtouch/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SDL/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SFML/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SOIL/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/GLew/cmake_install.cmake")
-  INCLUDE("/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/Bochs_disasm/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/LZO/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/soundtouch/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/SDL/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/SFML/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/miniupnpc/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/SOIL/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Externals/GLew/cmake_install.cmake")
+  INCLUDE("$(SRCROOT)/Core/Source/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -47,7 +47,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "$(SRCROOT)/Core/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "$(SRCROOT)/Core/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

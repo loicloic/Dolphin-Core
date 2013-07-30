@@ -1,8 +1,8 @@
-# Install script for directory: /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/SOIL
+# Install script for directory: $(SRCROOT)/Core/Externals/SOIL
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/install-dummy")
+  SET(CMAKE_INSTALL_PREFIX "$(SRCROOT)/Core/install-dummy")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

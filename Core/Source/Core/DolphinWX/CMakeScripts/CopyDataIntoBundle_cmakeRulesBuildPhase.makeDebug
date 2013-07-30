@@ -7,4 +7,4 @@ all: \
 
 $(SRCROOT)/Core/Source/Core/DolphinWX/CMakeFiles/CopyDataIntoBundle: 
 	echo ""
-	/usr/local/Cellar/cmake/2.8.11.2/bin/cmake -P copy_data_into_bundle.cmake
+	cmake -P copy_data_into_bundle.cmake

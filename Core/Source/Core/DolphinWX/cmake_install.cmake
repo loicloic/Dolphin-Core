@@ -1,8 +1,8 @@
-# Install script for directory: /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX
+# Install script for directory: $(SRCROOT)/Core/Source/Core/DolphinWX
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/install-dummy")
+  SET(CMAKE_INSTALL_PREFIX "$(SRCROOT)/Core/install-dummy")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -36,6 +36,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/Applications" TYPE DIRECTORY FILES "/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Binaries/Dolphin-nogui.app" USE_SOURCE_PERMISSIONS)
+FILE(INSTALL DESTINATION "/Applications" TYPE DIRECTORY FILES "$(SRCROOT)/Core/Binaries/Dolphin-nogui.app" USE_SOURCE_PERMISSIONS)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
