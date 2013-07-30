@@ -7,4 +7,4 @@ all: \
 
 common_buildpart_0: 
 	echo "Depend check for xcode"
-	cd /Users/loic/Desktop/dolphin-emu && make -C /Users/loic/Desktop/dolphin-emu -f /Users/loic/Desktop/dolphin-emu/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.common.$(CONFIGURATION)
+	cd /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core && make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.common.$(CONFIGURATION)

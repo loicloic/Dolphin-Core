@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'PPSSPP' target in the 'PPSSPP' project
+// Prefix header for all source files of the 'Dolphin' target in the 'Dolphin' project
 //
 
 #ifdef __OBJC__

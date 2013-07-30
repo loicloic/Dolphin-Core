@@ -20,10 +20,7 @@ Thumbs.db
 *.ilk
 *.log
 [Bb]in
-
-
-#[Dd]ebug*/
-
+[Dd]ebug*/
 *.lib
 *.sbr
 obj/
@@ -31,9 +28,7 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 Binary
-
-#Source/Core/Common/Src/scmrev.h
-
+Source/Core/Common/Src/scmrev.h
 *.opensdf
 *.sdf
 [Bb]uild
