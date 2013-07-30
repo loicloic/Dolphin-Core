@@ -30,6 +30,13 @@
 		44AAE65617A79CDB00E6997F /* GCELF.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64D17A79CDB00E6997F /* GCELF.h */; };
 		44AAE65717A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */; };
 		44AAE65917A79CDB00E6997F /* PPCDebugInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64F17A79CDB00E6997F /* PPCDebugInterface.h */; };
+		830013F817A7DFA400EB128A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830013F717A7DFA400EB128A /* AudioUnit.framework */; };
+		8300140217A7DFE200EB128A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300140117A7DFE200EB128A /* IOKit.framework */; };
+		8300140417A7DFF300EB128A /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300140317A7DFF300EB128A /* IOBluetooth.framework */; };
+		8300140717A7E02700EB128A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958A717A6EF7D0048CBE7 /* OpenAL.framework */; };
+		8300140917A7E0B700EB128A /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300140817A7E0B700EB128A /* AGL.framework */; };
+		8300140B17A7E0C000EB128A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300140A17A7E0C000EB128A /* CoreAudio.framework */; };
+		8300140D17A7E0CB00EB128A /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300140C17A7E0CA00EB128A /* OpenCL.framework */; };
 		8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC18C1785C48600647A96 /* OpenGL.framework */; };
 		8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC1221785B6C400647A96 /* OpenEmuBase.framework */; };
 		EB0214E117A70F2100DA81B3 /* DolphinGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFC1251785B6F700647A96 /* DolphinGameCore.mm */; };
@@ -584,7 +591,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		448880AF17A7AB20003ABFE7 /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = OEGCSystemResponderClient.h; path = ../OpenEmu/GameCube/OEGCSystemResponderClient.h; sourceTree = "<group>"; };
+		448880AF17A7AB20003ABFE7 /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEGCSystemResponderClient.h; path = ../OpenEmu/GameCube/OEGCSystemResponderClient.h; sourceTree = "<group>"; };
 		44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Debugger_SymbolMap.cpp; sourceTree = "<group>"; };
 		44AAE64A17A79CDB00E6997F /* Debugger_SymbolMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debugger_SymbolMap.h; sourceTree = "<group>"; };
 		44AAE64B17A79CDB00E6997F /* Dump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dump.cpp; sourceTree = "<group>"; };
@@ -592,6 +599,12 @@
 		44AAE64D17A79CDB00E6997F /* GCELF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCELF.h; sourceTree = "<group>"; };
 		44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PPCDebugInterface.cpp; sourceTree = "<group>"; };
 		44AAE64F17A79CDB00E6997F /* PPCDebugInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCDebugInterface.h; sourceTree = "<group>"; };
+		830013F717A7DFA400EB128A /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		8300140117A7DFE200EB128A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		8300140317A7DFF300EB128A /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		8300140817A7E0B700EB128A /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = System/Library/Frameworks/AGL.framework; sourceTree = SDKROOT; };
+		8300140A17A7E0C000EB128A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		8300140C17A7E0CA00EB128A /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 		8CAFA7B41785AF4200647A96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8CAFA7B71785AF4200647A96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8CAFA7B81785AF4200647A96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -6110,6 +6123,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8300140D17A7E0CB00EB128A /* OpenCL.framework in Frameworks */,
+				8300140B17A7E0C000EB128A /* CoreAudio.framework in Frameworks */,
+				8300140917A7E0B700EB128A /* AGL.framework in Frameworks */,
+				8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */,
+				8300140717A7E02700EB128A /* OpenAL.framework in Frameworks */,
+				8300140417A7DFF300EB128A /* IOBluetooth.framework in Frameworks */,
+				8300140217A7DFE200EB128A /* IOKit.framework in Frameworks */,
+				830013F817A7DFA400EB128A /* AudioUnit.framework in Frameworks */,
 				EB0214E317A7100000DA81B3 /* libaudiocommon.a in Frameworks */,
 				EB0214E417A7100000DA81B3 /* libbdisasm.a in Frameworks */,
 				EB0214E517A7100000DA81B3 /* libcommon.a in Frameworks */,
@@ -6127,7 +6148,6 @@
 				EB0214F117A7100000DA81B3 /* libvideoogl.a in Frameworks */,
 				EB0214F217A7100000DA81B3 /* libvideosoftware.a in Frameworks */,
 				EB0214F417A7100000DA81B3 /* libminiupnpc.a in Frameworks */,
-				8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */,
 				8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -6307,6 +6327,12 @@
 		8CAFA79C1785AE2A00647A96 /* Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				8300140C17A7E0CA00EB128A /* OpenCL.framework */,
+				8300140A17A7E0C000EB128A /* CoreAudio.framework */,
+				8300140817A7E0B700EB128A /* AGL.framework */,
+				8300140317A7DFF300EB128A /* IOBluetooth.framework */,
+				8300140117A7DFE200EB128A /* IOKit.framework */,
+				830013F717A7DFA400EB128A /* AudioUnit.framework */,
 				EB8958A717A6EF7D0048CBE7 /* OpenAL.framework */,
 				8CAFC1221785B6C400647A96 /* OpenEmuBase.framework */,
 				8CAFC1211785B69B00647A96 /* Linked Frameworks */,
