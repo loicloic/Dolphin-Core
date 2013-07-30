@@ -27,6 +27,10 @@
 #import "DolphinGameCore.h"
 #import <OpenEmuBase/OERingBuffer.h>
 
+#include "Core.h"
+#include "BootManager.h"
+
+
 #define SAMPLERATE 44100
 #define SIZESOUNDBUFFER 44100 / 60 * 4
 
@@ -42,6 +46,7 @@
 
 - (BOOL)loadFileAtPath:(NSString *)path
 {
+    BootManager::BootCore(nil);
     return YES;
 }
 

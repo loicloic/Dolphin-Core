@@ -22,15 +22,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		448880B017A7AB20003ABFE7 /* OEGCSystemResponderClient.h in Resources */ = {isa = PBXBuildFile; fileRef = 448880AF17A7AB20003ABFE7 /* OEGCSystemResponderClient.h */; };
 		44AAE65017A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */; };
-		44AAE65117A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */; };
 		44AAE65217A79CDB00E6997F /* Debugger_SymbolMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64A17A79CDB00E6997F /* Debugger_SymbolMap.h */; };
 		44AAE65317A79CDB00E6997F /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64B17A79CDB00E6997F /* Dump.cpp */; };
-		44AAE65417A79CDB00E6997F /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64B17A79CDB00E6997F /* Dump.cpp */; };
 		44AAE65517A79CDB00E6997F /* Dump.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64C17A79CDB00E6997F /* Dump.h */; };
 		44AAE65617A79CDB00E6997F /* GCELF.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64D17A79CDB00E6997F /* GCELF.h */; };
 		44AAE65717A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */; };
-		44AAE65817A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */; };
 		44AAE65917A79CDB00E6997F /* PPCDebugInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64F17A79CDB00E6997F /* PPCDebugInterface.h */; };
 		8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC18C1785C48600647A96 /* OpenGL.framework */; };
 		8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC1221785B6C400647A96 /* OpenEmuBase.framework */; };
@@ -586,6 +584,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		448880AF17A7AB20003ABFE7 /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = OEGCSystemResponderClient.h; path = ../OpenEmu/GameCube/OEGCSystemResponderClient.h; sourceTree = "<group>"; };
 		44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Debugger_SymbolMap.cpp; sourceTree = "<group>"; };
 		44AAE64A17A79CDB00E6997F /* Debugger_SymbolMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debugger_SymbolMap.h; sourceTree = "<group>"; };
 		44AAE64B17A79CDB00E6997F /* Dump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dump.cpp; sourceTree = "<group>"; };
@@ -602,7 +601,6 @@
 		8CAFC1241785B6F700647A96 /* DolphinGameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DolphinGameCore.h; sourceTree = "<group>"; };
 		8CAFC1251785B6F700647A96 /* DolphinGameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DolphinGameCore.mm; sourceTree = "<group>"; };
 		8CAFC18C1785C48600647A96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		8CB3FB7A1786D2E500A3C50D /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEGCSystemResponderClient.h; path = ../OpenEmu/PSP/OEGCSystemResponderClient.h; sourceTree = "<group>"; };
 		EB65DF8017A70D6100E77A53 /* scmrev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scmrev.h; sourceTree = "<group>"; };
 		EB892D0717A6BE450048CBE7 /* Dolphin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dolphin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		EB892D0817A6BE450048CBE7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -6331,7 +6329,7 @@
 		8CAFC10A1785B60F00647A96 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8CB3FB7A1786D2E500A3C50D /* OEGCSystemResponderClient.h */,
+				448880AF17A7AB20003ABFE7 /* OEGCSystemResponderClient.h */,
 				8CAFC1241785B6F700647A96 /* DolphinGameCore.h */,
 				8CAFC1251785B6F700647A96 /* DolphinGameCore.mm */,
 			);
@@ -14999,6 +14997,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0214E217A70F2A00DA81B3 /* Info.plist in Resources */,
+				448880B017A7AB20003ABFE7 /* OEGCSystemResponderClient.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15026,9 +15025,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0214E117A70F2100DA81B3 /* DolphinGameCore.mm in Sources */,
-				44AAE65117A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */,
-				44AAE65417A79CDB00E6997F /* Dump.cpp in Sources */,
-				44AAE65817A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
