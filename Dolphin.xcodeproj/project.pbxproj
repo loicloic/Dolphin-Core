@@ -37,7 +37,6 @@
 				3992C8EA87E7492CABEC8716 /* CMake Rules */,
 			);
 			dependencies = (
-				A64157BD6BB44AF394C6432A /* PBXTargetDependency */,
 				CD30D0A2C6A2458EB70B7189 /* PBXTargetDependency */,
 				3C3EC4C57BEB4EAC85116C12 /* PBXTargetDependency */,
 				494655F135324A829B5C367E /* PBXTargetDependency */,
@@ -645,13 +644,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = F9B61A2AEBEF4F2DBB7EE7F6;
 			remoteInfo = inputcommon;
-		};
-		811FD7D1D0CB45C48884AC99 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03633E2DF5894039936DE421;
-			remoteInfo = ZERO_CHECK;
 		};
 		84D86DCA69B747139D71DBD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3378,11 +3370,6 @@
 			isa = PBXTargetDependency;
 			target = 77216CACA8644161976A37D2 /* Dolphin-nogui */;
 			targetProxy = 0E5ECB02A0084481A916C951 /* PBXContainerItemProxy */;
-		};
-		A64157BD6BB44AF394C6432A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03633E2DF5894039936DE421 /* ZERO_CHECK */;
-			targetProxy = 811FD7D1D0CB45C48884AC99 /* PBXContainerItemProxy */;
 		};
 		B6EEB1F53E2E461895F824BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

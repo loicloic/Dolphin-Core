@@ -2,9 +2,9 @@
 # Custom rules for CopyDataIntoBundle
 .SUFFIXES: 
 all: \
-	/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/CMakeFiles/CopyDataIntoBundle
+	$(SRCROOT)/Core/Source/Core/DolphinWX/CMakeFiles/CopyDataIntoBundle
 
 
-/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Source/Core/DolphinWX/CMakeFiles/CopyDataIntoBundle: 
+$(SRCROOT)/Core/Source/Core/DolphinWX/CMakeFiles/CopyDataIntoBundle: 
 	echo ""
 	/usr/local/Cellar/cmake/2.8.11.2/bin/cmake -P copy_data_into_bundle.cmake

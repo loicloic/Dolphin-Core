@@ -7,4 +7,4 @@ all: \
 
 lzo2_buildpart_0: 
 	echo "Depend check for xcode"
-	cd /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core && make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lzo2.$(CONFIGURATION)
+	cd $(SRCROOT)/Core && make -C $(SRCROOT)/Core -f $(SRCROOT)/Core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lzo2.$(CONFIGURATION)

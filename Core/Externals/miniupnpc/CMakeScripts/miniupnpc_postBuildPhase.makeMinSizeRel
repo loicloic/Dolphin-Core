@@ -8,8 +8,8 @@ all: \
 
 miniupnpc_buildpart_0: 
 	echo "Depend check for xcode"
-	cd /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core && make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.miniupnpc.$(CONFIGURATION)
+	cd $(SRCROOT)/Core && make -C $(SRCROOT)/Core -f $(SRCROOT)/Core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.miniupnpc.$(CONFIGURATION)
 
 miniupnpc_buildpart_1: 
 	echo "Depend check for xcode"
-	cd /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc && make -C /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.miniupnpc.$(CONFIGURATION)
+	cd $(SRCROOT)/Core/Externals/miniupnpc && make -C $(SRCROOT)/Core/Externals/miniupnpc -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.miniupnpc.$(CONFIGURATION)

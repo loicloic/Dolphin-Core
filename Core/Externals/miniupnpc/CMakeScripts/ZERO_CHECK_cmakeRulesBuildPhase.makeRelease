@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeFiles/ZERO_CHECK
+	$(SRCROOT)/Core/Externals/miniupnpc/CMakeFiles/ZERO_CHECK
 
 
-/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeFiles/ZERO_CHECK: 
+$(SRCROOT)/Core/Externals/miniupnpc/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/Externals/miniupnpc/CMakeScripts/ReRunCMake.make
+	make -f $(SRCROOT)/Core/Externals/miniupnpc/CMakeScripts/ReRunCMake.make
