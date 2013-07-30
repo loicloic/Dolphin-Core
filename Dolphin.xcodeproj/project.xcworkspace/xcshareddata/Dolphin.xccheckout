@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D96E1E05-0A3C-4624-BEAD-B73122F84C0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dolphin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>12494E6F-28F3-4E39-92F4-455855C41200</key>
+		<string>https://github.com/loicloic/Dolphin-Core.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dolphin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>12494E6F-28F3-4E39-92F4-455855C41200</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/loicloic/Dolphin-Core.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>12494E6F-28F3-4E39-92F4-455855C41200</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>12494E6F-28F3-4E39-92F4-455855C41200</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dolphin-Core</string>
+		</dict>
+	</array>
+</dict>
+</plist>
