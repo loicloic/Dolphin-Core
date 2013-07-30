@@ -22,6 +22,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		44AAE65017A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */; };
+		44AAE65117A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */; };
+		44AAE65217A79CDB00E6997F /* Debugger_SymbolMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64A17A79CDB00E6997F /* Debugger_SymbolMap.h */; };
+		44AAE65317A79CDB00E6997F /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64B17A79CDB00E6997F /* Dump.cpp */; };
+		44AAE65417A79CDB00E6997F /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64B17A79CDB00E6997F /* Dump.cpp */; };
+		44AAE65517A79CDB00E6997F /* Dump.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64C17A79CDB00E6997F /* Dump.h */; };
+		44AAE65617A79CDB00E6997F /* GCELF.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64D17A79CDB00E6997F /* GCELF.h */; };
+		44AAE65717A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */; };
+		44AAE65817A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */; };
+		44AAE65917A79CDB00E6997F /* PPCDebugInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AAE64F17A79CDB00E6997F /* PPCDebugInterface.h */; };
 		8C74454E1786DB1E0008BE6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC18C1785C48600647A96 /* OpenGL.framework */; };
 		8CAFC1231785B6C400647A96 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFC1221785B6C400647A96 /* OpenEmuBase.framework */; };
 		EB0214E117A70F2100DA81B3 /* DolphinGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFC1251785B6F700647A96 /* DolphinGameCore.mm */; };
@@ -44,13 +54,6 @@
 		EB0214F217A7100000DA81B3 /* libvideosoftware.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8958FC17A6F30D0048CBE7 /* libvideosoftware.a */; };
 		EB0214F417A7100000DA81B3 /* libminiupnpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB89521A17A6BFB60048CBE7 /* libminiupnpc.a */; };
 		EB65DF8117A70D6100E77A53 /* scmrev.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF8017A70D6100E77A53 /* scmrev.h */; };
-		EB65DF9F17A70DFC00E77A53 /* Debugger_SymbolMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */; };
-		EB65DFA017A70DFC00E77A53 /* Debugger_SymbolMap.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */; };
-		EB65DFA117A70DFC00E77A53 /* Dump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9A17A70DFC00E77A53 /* Dump.cpp */; };
-		EB65DFA217A70DFC00E77A53 /* Dump.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9B17A70DFC00E77A53 /* Dump.h */; };
-		EB65DFA317A70DFC00E77A53 /* GCELF.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9C17A70DFC00E77A53 /* GCELF.h */; };
-		EB65DFA417A70DFC00E77A53 /* PPCDebugInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */; };
-		EB65DFA517A70DFC00E77A53 /* PPCDebugInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */; };
 		EB89522317A6C0800048CBE7 /* dis_decode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8933C117A6BFA90048CBE7 /* dis_decode.cpp */; };
 		EB89522417A6C0800048CBE7 /* dis_groups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8933C217A6BFA90048CBE7 /* dis_groups.cpp */; };
 		EB89522517A6C0800048CBE7 /* PowerPCDisasm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8933C717A6BFA90048CBE7 /* PowerPCDisasm.cpp */; };
@@ -583,6 +586,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Debugger_SymbolMap.cpp; sourceTree = "<group>"; };
+		44AAE64A17A79CDB00E6997F /* Debugger_SymbolMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debugger_SymbolMap.h; sourceTree = "<group>"; };
+		44AAE64B17A79CDB00E6997F /* Dump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dump.cpp; sourceTree = "<group>"; };
+		44AAE64C17A79CDB00E6997F /* Dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dump.h; sourceTree = "<group>"; };
+		44AAE64D17A79CDB00E6997F /* GCELF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCELF.h; sourceTree = "<group>"; };
+		44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PPCDebugInterface.cpp; sourceTree = "<group>"; };
+		44AAE64F17A79CDB00E6997F /* PPCDebugInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCDebugInterface.h; sourceTree = "<group>"; };
 		8CAFA7B41785AF4200647A96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8CAFA7B71785AF4200647A96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8CAFA7B81785AF4200647A96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -594,13 +604,6 @@
 		8CAFC18C1785C48600647A96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		8CB3FB7A1786D2E500A3C50D /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEGCSystemResponderClient.h; path = ../OpenEmu/PSP/OEGCSystemResponderClient.h; sourceTree = "<group>"; };
 		EB65DF8017A70D6100E77A53 /* scmrev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scmrev.h; sourceTree = "<group>"; };
-		EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Debugger_SymbolMap.cpp; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Debugger_SymbolMap.cpp"; sourceTree = "<group>"; };
-		EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Debugger_SymbolMap.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Debugger_SymbolMap.h"; sourceTree = "<group>"; };
-		EB65DF9A17A70DFC00E77A53 /* Dump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dump.cpp; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Dump.cpp"; sourceTree = "<group>"; };
-		EB65DF9B17A70DFC00E77A53 /* Dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dump.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/Dump.h"; sourceTree = "<group>"; };
-		EB65DF9C17A70DFC00E77A53 /* GCELF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCELF.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/GCELF.h"; sourceTree = "<group>"; };
-		EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PPCDebugInterface.cpp; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/PPCDebugInterface.cpp"; sourceTree = "<group>"; };
-		EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPCDebugInterface.h; path = "../../../../../../../../../Desktop/Dolphin-Core/Core/Source/Core/Core/Src/Debugger/PPCDebugInterface.h"; sourceTree = "<group>"; };
 		EB892D0717A6BE450048CBE7 /* Dolphin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dolphin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		EB892D0817A6BE450048CBE7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		EB892D0B17A6BF9D0048CBE7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -6253,6 +6256,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44AAE64817A79CDB00E6997F /* Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				44AAE64917A79CDB00E6997F /* Debugger_SymbolMap.cpp */,
+				44AAE64A17A79CDB00E6997F /* Debugger_SymbolMap.h */,
+				44AAE64B17A79CDB00E6997F /* Dump.cpp */,
+				44AAE64C17A79CDB00E6997F /* Dump.h */,
+				44AAE64D17A79CDB00E6997F /* GCELF.h */,
+				44AAE64E17A79CDB00E6997F /* PPCDebugInterface.cpp */,
+				44AAE64F17A79CDB00E6997F /* PPCDebugInterface.h */,
+			);
+			path = Debugger;
+			sourceTree = "<group>";
+		};
 		8CAFA78E1785AA9900647A96 = {
 			isa = PBXGroup;
 			children = (
@@ -12608,6 +12625,7 @@
 		EB893F3617A6BFB20048CBE7 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				44AAE64817A79CDB00E6997F /* Debugger */,
 				EB893F3717A6BFB20048CBE7 /* ActionReplay.cpp */,
 				EB893F3817A6BFB20048CBE7 /* ActionReplay.h */,
 				EB893F3917A6BFB20048CBE7 /* ARDecrypt.cpp */,
@@ -12626,7 +12644,6 @@
 				EB893F5217A6BFB20048CBE7 /* CoreParameter.h */,
 				EB893F5317A6BFB20048CBE7 /* CoreTiming.cpp */,
 				EB893F5417A6BFB20048CBE7 /* CoreTiming.h */,
-				EB893F5517A6BFB20048CBE7 /* Debugger */,
 				EB893F5D17A6BFB20048CBE7 /* DSP */,
 				EB893F9117A6BFB20048CBE7 /* DSPEmulator.cpp */,
 				EB893F9217A6BFB20048CBE7 /* DSPEmulator.h */,
@@ -12679,20 +12696,6 @@
 				EB893F4817A6BFB20048CBE7 /* ElfTypes.h */,
 			);
 			path = Boot;
-			sourceTree = "<group>";
-		};
-		EB893F5517A6BFB20048CBE7 /* Debugger */ = {
-			isa = PBXGroup;
-			children = (
-				EB65DF9817A70DFC00E77A53 /* Debugger_SymbolMap.cpp */,
-				EB65DF9917A70DFC00E77A53 /* Debugger_SymbolMap.h */,
-				EB65DF9A17A70DFC00E77A53 /* Dump.cpp */,
-				EB65DF9B17A70DFC00E77A53 /* Dump.h */,
-				EB65DF9C17A70DFC00E77A53 /* GCELF.h */,
-				EB65DF9D17A70DFC00E77A53 /* PPCDebugInterface.cpp */,
-				EB65DF9E17A70DFC00E77A53 /* PPCDebugInterface.h */,
-			);
-			path = Debugger;
 			sourceTree = "<group>";
 		};
 		EB893F5D17A6BFB20048CBE7 /* DSP */ = {
@@ -14545,10 +14548,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB65DF8117A70D6100E77A53 /* scmrev.h in Headers */,
-				EB65DFA017A70DFC00E77A53 /* Debugger_SymbolMap.h in Headers */,
-				EB65DFA217A70DFC00E77A53 /* Dump.h in Headers */,
-				EB65DFA317A70DFC00E77A53 /* GCELF.h in Headers */,
-				EB65DFA517A70DFC00E77A53 /* PPCDebugInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -14556,6 +14555,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AAE65217A79CDB00E6997F /* Debugger_SymbolMap.h in Headers */,
+				44AAE65517A79CDB00E6997F /* Dump.h in Headers */,
+				44AAE65617A79CDB00E6997F /* GCELF.h in Headers */,
+				44AAE65917A79CDB00E6997F /* PPCDebugInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15023,6 +15026,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0214E117A70F2100DA81B3 /* DolphinGameCore.mm in Sources */,
+				44AAE65117A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */,
+				44AAE65417A79CDB00E6997F /* Dump.cpp in Sources */,
+				44AAE65817A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15205,9 +15211,6 @@
 				EB8958DD17A6F22C0048CBE7 /* x64Emitter.cpp in Sources */,
 				EB8958DE17A6F22C0048CBE7 /* x64FPURoundMode.cpp in Sources */,
 				EB8958DF17A6F22C0048CBE7 /* x64Thunk.cpp in Sources */,
-				EB65DF9F17A70DFC00E77A53 /* Debugger_SymbolMap.cpp in Sources */,
-				EB65DFA117A70DFC00E77A53 /* Dump.cpp in Sources */,
-				EB65DFA417A70DFC00E77A53 /* PPCDebugInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15409,6 +15412,9 @@
 				EB895A3E17A6F9740048CBE7 /* VolumeHandler.cpp in Sources */,
 				EB895A3C17A6F9740048CBE7 /* stdafx.cpp in Sources */,
 				EB895A3F17A6F9740048CBE7 /* x64MemTools.cpp in Sources */,
+				44AAE65017A79CDB00E6997F /* Debugger_SymbolMap.cpp in Sources */,
+				44AAE65317A79CDB00E6997F /* Dump.cpp in Sources */,
+				44AAE65717A79CDB00E6997F /* PPCDebugInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15771,28 +15777,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Dolphin\"",
-					"\"$(SRCROOT)/Dolphin/Common\"",
-					"\"$(SRCROOT)/Dolphin/native\"",
-					"\"$(SRCROOT)/Dolphin/native/ext/glew\"",
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"$(SRCRoot)/Source/Core/AudioCommon/Src",
-					"$(SRCRoot)/Source/Core/Common/Src",
-					"$(SRCRoot)/Source/Core/Core/Src",
-					"$(SRCRoot)/Source/Core/DebuggerUICommon/Src",
-					"$(SRCRoot)/Source/Core/DebuggerWX/Src",
-					"$(SRCRoot)/Source/Core/DiscIO/Src",
-					"$(SRCRoot)/Source/Core/DolphinWX/Src",
-					"$(SRCRoot)/Source/Core/InputCommon/Src",
-					"$(SRCRoot)/Source/Core/VideoCommon/Src",
-					"$(SRCRoot)/Source/Core/VideoUICommon/Src",
-					"$(SRCRoot)/Externals/Bochs_disasm",
-					"$(SRCRoot)/Externals/LZO",
-					"$(SRCRoot)/Externals",
-					"$(SRCRoot)/Externals/SDL/SDL",
-					"$(SRCRoot)/Externals/SDL",
-					"$(SRCRoot)/Externals/SDL/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
@@ -15839,28 +15846,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Dolphin\"",
-					"\"$(SRCROOT)/Dolphin/Common\"",
-					"\"$(SRCROOT)/Dolphin/native\"",
-					"\"$(SRCROOT)/Dolphin/native/ext/glew\"",
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"$(SRCRoot)/Source/Core/AudioCommon/Src",
-					"$(SRCRoot)/Source/Core/Common/Src",
-					"$(SRCRoot)/Source/Core/Core/Src",
-					"$(SRCRoot)/Source/Core/DebuggerUICommon/Src",
-					"$(SRCRoot)/Source/Core/DebuggerWX/Src",
-					"$(SRCRoot)/Source/Core/DiscIO/Src",
-					"$(SRCRoot)/Source/Core/DolphinWX/Src",
-					"$(SRCRoot)/Source/Core/InputCommon/Src",
-					"$(SRCRoot)/Source/Core/VideoCommon/Src",
-					"$(SRCRoot)/Source/Core/VideoUICommon/Src",
-					"$(SRCRoot)/Externals/Bochs_disasm",
-					"$(SRCRoot)/Externals/LZO",
-					"$(SRCRoot)/Externals",
-					"$(SRCRoot)/Externals/SDL/SDL",
-					"$(SRCRoot)/Externals/SDL",
-					"$(SRCRoot)/Externals/SDL/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "\"$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores\"";
@@ -16990,28 +16998,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -17100,28 +17108,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -17213,28 +17221,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -17323,28 +17331,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -17436,28 +17444,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -17546,28 +17554,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -18104,28 +18112,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -18214,28 +18222,28 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenAL.framework/Headers,
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/AudioCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Common/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/Core/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DebuggerWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DiscIO/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/DolphinWX/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/InputCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoCommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Source/Core/VideoUICommon/Src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/Bochs_disasm",
-					"/Users/loic/Desktop/dolphin-emu/Externals/LZO",
-					"/Users/loic/Desktop/dolphin-emu/Externals",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SDL/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SFML/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/miniupnpc/src",
-					"/Users/loic/Desktop/dolphin-emu/Externals/SOIL",
-					"/Users/loic/Desktop/dolphin-emu/Externals/GLew/include",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3",
-					"/Users/loic/Desktop/dolphin-emu/Externals/wxWidgets3/include",
+					"$(SRCROOT)/Core/Source/Core/AudioCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/Common/Src",
+					"$(SRCROOT)/Core/Source/Core/Core/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerUICommon/Src",
+					"$(SRCROOT)/Core/Source/Core/DebuggerWX/Src",
+					"$(SRCROOT)/Core/Source/Core/DiscIO/Src",
+					"$(SRCROOT)/Core/Source/Core/DolphinWX/Src",
+					"$(SRCROOT)/Core/Source/Core/InputCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoCommon/Src",
+					"$(SRCROOT)/Core/Source/Core/VideoUICommon/Src",
+					"$(SRCROOT)/Core/Externals/Bochs_disasm",
+					"$(SRCROOT)/Core/Externals/LZO",
+					"$(SRCROOT)/Core/Externals",
+					"$(SRCROOT)/Core/Externals/SDL/SDL",
+					"$(SRCROOT)/Core/Externals/SDL",
+					"$(SRCROOT)/Core/Externals/SDL/include",
+					"$(SRCROOT)/Core/Externals/SFML/include",
+					"$(SRCROOT)/Core/Externals/miniupnpc/src",
+					"$(SRCROOT)/Core/Externals/SOIL",
+					"$(SRCROOT)/Core/Externals/GLew/include",
+					"$(SRCROOT)/Core/Externals/wxWidgets3",
+					"$(SRCROOT)/Core/Externals/wxWidgets3/include",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
