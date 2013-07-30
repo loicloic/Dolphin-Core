@@ -19,9 +19,9 @@
 #include "Host.h"
 #include "RenderBase.h"
 #include "ConfigManager.h"
-
+#ifndef OPENEMU
 #include <wx/panel.h>
-
+#endif
 #include "VertexShaderManager.h"
 #include "../GLInterface.h"
 #include "AGL.h"
@@ -38,8 +38,9 @@ bool cInterfaceAGL::Create(void *&window_handle)
 	int _tx, _ty, _twidth, _theight;
 	Host_GetRenderWindowSize(_tx, _ty, _twidth, _theight);
 
+#ifndef OPENEMU
 	GLWin.cocoaWin = (NSView*)(((wxPanel*)window_handle)->GetHandle());
-
+#endif
 	// Enable high-resolution display support.
 	[GLWin.cocoaWin setWantsBestResolutionOpenGLSurface:YES];
 

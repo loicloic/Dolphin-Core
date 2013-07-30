@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/loic/Desktop/dolphin-emu/CMakeFiles/ZERO_CHECK
+	/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/CMakeFiles/ZERO_CHECK
 
 
-/Users/loic/Desktop/dolphin-emu/CMakeFiles/ZERO_CHECK: 
+/Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/loic/Desktop/dolphin-emu/CMakeScripts/ReRunCMake.make
+	make -f /Users/chris/Desktop/OpenEmu-DolphinDev/Dolphin-Core/Core/CMakeScripts/ReRunCMake.make
