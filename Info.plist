@@ -30,7 +30,7 @@
 	<string>http://www.dolphin-emulator.com/</string>
 	<key>OESystemIdentifiers</key>
 	<array>
-		<string>openemu.system.gamecube</string>
+		<string>openemu.system.ngc</string>
 	</array>
 	<key>SUEnableAutomaticChecks</key>
 	<string>1</string>

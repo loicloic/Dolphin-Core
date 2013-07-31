@@ -336,6 +336,16 @@
 		834E22E017A964F800B238A8 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F8320817A803D800DDC050 /* libiconv.dylib */; };
 		834E22E617A968CE00B238A8 /* OEGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834E22E417A968CE00B238A8 /* OEGL.cpp */; };
 		83688EC817A9598700EB0BE2 /* DolphinGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83688EC717A9598700EB0BE2 /* DolphinGameCore.mm */; };
+		83E702F417A97B5500A173F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F831F517A7FBE000DDC050 /* Cocoa.framework */; };
+		83E702FA17A97B5600A173F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83E702F817A97B5600A173F6 /* InfoPlist.strings */; };
+		83E7030517A97BD100A173F6 /* Controller-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E7030217A97BD100A173F6 /* Controller-Mappings.plist */; };
+		83E7030617A97BD100A173F6 /* Controller-Preferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E7030317A97BD100A173F6 /* Controller-Preferences.plist */; };
+		83E7030717A97BD100A173F6 /* Keyboard-Mappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E7030417A97BD100A173F6 /* Keyboard-Mappings.plist */; };
+		83E7030A17A97BF500A173F6 /* controller_ngc.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E7030817A97BF500A173F6 /* controller_ngc.png */; };
+		83E7030B17A97BF500A173F6 /* gamecube_library.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E7030917A97BF500A173F6 /* gamecube_library.png */; };
+		83E7031217A97C9400A173F6 /* OEGCSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E7030E17A97C9400A173F6 /* OEGCSystemController.m */; };
+		83E7031317A97C9400A173F6 /* OEGCSystemResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E7031017A97C9400A173F6 /* OEGCSystemResponder.m */; };
+		83E7031617A97D4E00A173F6 /* OpenEmuSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E7031517A97D4E00A173F6 /* OpenEmuSystem.framework */; };
 		83F831F617A7FBE000DDC050 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F831F517A7FBE000DDC050 /* Cocoa.framework */; };
 		83F8320017A7FBE000DDC050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F831FE17A7FBE000DDC050 /* InfoPlist.strings */; };
 		84A85465717B493FAA4868F2 /* DspIntArithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61280CAA487D439FAA593EFF /* DspIntArithmetic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -1157,7 +1167,6 @@
 		80EAE88BFE09421CB5961248 /* DSPJitExtOps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DSPJitExtOps.cpp; path = Source/Core/Core/Src/DSP/Jit/DSPJitExtOps.cpp; sourceTree = "<group>"; };
 		81D57DE6C5B4451B8B5D2CFE /* Clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Clipper.cpp; path = Source/Plugins/Plugin_VideoSoftware/Src/Clipper.cpp; sourceTree = "<group>"; };
 		834E1B9D17A95F0F00B238A8 /* OpenEmuBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenEmuBase.framework; path = "../OpenEmu-SDK/build/Release/OpenEmuBase.framework"; sourceTree = "<group>"; };
-		834E1BA117A9600D00B238A8 /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEGCSystemResponderClient.h; sourceTree = "<group>"; };
 		834E1BA417A9632700B238A8 /* AAFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AAFilter.h; path = Externals/soundtouch/AAFilter.h; sourceTree = "<group>"; };
 		834E1BA517A9632700B238A8 /* aboutdlg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aboutdlg.h; path = Externals/wxWidgets3/include/wx/aboutdlg.h; sourceTree = "<group>"; };
 		834E1BA617A9632700B238A8 /* aboutdlgg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aboutdlgg.h; path = Externals/wxWidgets3/include/wx/generic/aboutdlgg.h; sourceTree = "<group>"; };
@@ -2991,6 +3000,22 @@
 		83688EC617A9598600EB0BE2 /* DolphinGameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DolphinGameCore.h; sourceTree = "<group>"; };
 		83688EC717A9598700EB0BE2 /* DolphinGameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DolphinGameCore.mm; sourceTree = "<group>"; };
 		83B15CC5F9804A4488B3641D /* Jit_LoadStorePaired.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Jit_LoadStorePaired.cpp; path = Source/Core/Core/Src/PowerPC/Jit64/Jit_LoadStorePaired.cpp; sourceTree = "<group>"; };
+		83E702F317A97B5500A173F6 /* GameCube.oesystemplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameCube.oesystemplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E702F717A97B5600A173F6 /* GameCube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameCube-Info.plist"; sourceTree = "<group>"; };
+		83E702F917A97B5600A173F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83E702FB17A97B5600A173F6 /* GameCube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameCube-Prefix.pch"; sourceTree = "<group>"; };
+		83E7030217A97BD100A173F6 /* Controller-Mappings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Controller-Mappings.plist"; sourceTree = "<group>"; };
+		83E7030317A97BD100A173F6 /* Controller-Preferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Controller-Preferences.plist"; sourceTree = "<group>"; };
+		83E7030417A97BD100A173F6 /* Keyboard-Mappings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Keyboard-Mappings.plist"; sourceTree = "<group>"; };
+		83E7030817A97BF500A173F6 /* controller_ngc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controller_ngc.png; sourceTree = "<group>"; };
+		83E7030917A97BF500A173F6 /* gamecube_library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamecube_library.png; sourceTree = "<group>"; };
+		83E7030C17A97C2F00A173F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E7030D17A97C9400A173F6 /* OEGCSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEGCSystemController.h; sourceTree = "<group>"; };
+		83E7030E17A97C9400A173F6 /* OEGCSystemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEGCSystemController.m; sourceTree = "<group>"; };
+		83E7030F17A97C9400A173F6 /* OEGCSystemResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEGCSystemResponder.h; sourceTree = "<group>"; };
+		83E7031017A97C9400A173F6 /* OEGCSystemResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEGCSystemResponder.m; sourceTree = "<group>"; };
+		83E7031117A97C9400A173F6 /* OEGCSystemResponderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEGCSystemResponderClient.h; sourceTree = "<group>"; };
+		83E7031517A97D4E00A173F6 /* OpenEmuSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenEmuSystem.framework; path = "../../../Library/Developer/Xcode/DerivedData/OpenEmu-djsragygjxzmgeczjflfxtnvukzy/Build/Products/Release/OpenEmuSystem.framework"; sourceTree = "<group>"; };
 		83F831F317A7FBE000DDC050 /* Dolphin.oecoreplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolphin.oecoreplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F831F517A7FBE000DDC050 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		83F831F817A7FBE000DDC050 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -3210,6 +3235,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		83E702F017A97B5500A173F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E7031617A97D4E00A173F6 /* OpenEmuSystem.framework in Frameworks */,
+				83E702F417A97B5500A173F6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83F831F017A7FBE000DDC050 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3563,6 +3597,7 @@
 				1CFD39A3F4BA4D999FC4FE90 /* libvideoogl.a */,
 				25001B234CE749D990B38779 /* libvideosoftware.a */,
 				83F831F317A7FBE000DDC050 /* Dolphin.oecoreplugin */,
+				83E702F317A97B5500A173F6 /* GameCube.oesystemplugin */,
 			);
 			name = Products;
 			path = Build;
@@ -5621,6 +5656,34 @@
 			name = Headers;
 			sourceTree = "<group>";
 		};
+		83E702F517A97B5500A173F6 /* GameCube */ = {
+			isa = PBXGroup;
+			children = (
+				83E7030D17A97C9400A173F6 /* OEGCSystemController.h */,
+				83E7030E17A97C9400A173F6 /* OEGCSystemController.m */,
+				83E7030F17A97C9400A173F6 /* OEGCSystemResponder.h */,
+				83E7031017A97C9400A173F6 /* OEGCSystemResponder.m */,
+				83E7031117A97C9400A173F6 /* OEGCSystemResponderClient.h */,
+				83E702F617A97B5600A173F6 /* Supporting Files */,
+			);
+			path = GameCube;
+			sourceTree = "<group>";
+		};
+		83E702F617A97B5600A173F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83E7030217A97BD100A173F6 /* Controller-Mappings.plist */,
+				83E7030317A97BD100A173F6 /* Controller-Preferences.plist */,
+				83E7030817A97BF500A173F6 /* controller_ngc.png */,
+				83E702F717A97B5600A173F6 /* GameCube-Info.plist */,
+				83E702FB17A97B5600A173F6 /* GameCube-Prefix.pch */,
+				83E7030917A97BF500A173F6 /* gamecube_library.png */,
+				83E702F817A97B5600A173F6 /* InfoPlist.strings */,
+				83E7030417A97BD100A173F6 /* Keyboard-Mappings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		83F831EB17A7FBB500DDC050 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -5637,6 +5700,7 @@
 			children = (
 				83F831F517A7FBE000DDC050 /* Cocoa.framework */,
 				834E1B9D17A95F0F00B238A8 /* OpenEmuBase.framework */,
+				83E7031517A97D4E00A173F6 /* OpenEmuSystem.framework */,
 				83F831F717A7FBE000DDC050 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -5663,7 +5727,7 @@
 		83F831FC17A7FBE000DDC050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				834E1BA117A9600D00B238A8 /* OEGCSystemResponderClient.h */,
+				83E7030C17A97C2F00A173F6 /* Info.plist */,
 				83F831FE17A7FBE000DDC050 /* InfoPlist.strings */,
 				83F8320117A7FBE000DDC050 /* Dolphin-Prefix.pch */,
 			);
@@ -5837,6 +5901,7 @@
 				4E0FE65AE4C5455B89B1ED40 /* Sources */,
 				90B52D177EEE411DAC1D0951 /* Resources */,
 				83F831FC17A7FBE000DDC050 /* Supporting Files */,
+				83E702F517A97B5500A173F6 /* GameCube */,
 				83F831F417A7FBE000DDC050 /* Frameworks */,
 				67F0381173BD42B08DCF3FFC /* Products */,
 			);
@@ -6108,6 +6173,23 @@
 			productReference = 43F13F44B5524947B6DE1710 /* libminiupnpc.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		83E702F217A97B5500A173F6 /* GameCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E7030017A97B5600A173F6 /* Build configuration list for PBXNativeTarget "GameCube" */;
+			buildPhases = (
+				83E702EF17A97B5500A173F6 /* Sources */,
+				83E702F017A97B5500A173F6 /* Frameworks */,
+				83E702F117A97B5500A173F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameCube;
+			productName = GameCube;
+			productReference = 83E702F317A97B5500A173F6 /* GameCube.oesystemplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
 		83F831F217A7FBE000DDC050 /* Dolphin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83F8320217A7FBE000DDC050 /* Build configuration list for PBXNativeTarget "Dolphin" */;
@@ -6305,6 +6387,7 @@
 				B92DDD8BB75E4368B82B8239 /* videosoftware */,
 				83F831F217A7FBE000DDC050 /* Dolphin */,
 				83E702E517A9791100A173F6 /* Build & Install Dolphin */,
+				83E702F217A97B5500A173F6 /* GameCube */,
 			);
 		};
 /* End PBXProject section */
@@ -6315,6 +6398,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB2B37689EB4B0E80F4F92B /* Dolphin.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E702F117A97B5500A173F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E702FA17A97B5600A173F6 /* InfoPlist.strings in Resources */,
+				83E7030517A97BD100A173F6 /* Controller-Mappings.plist in Resources */,
+				83E7030617A97BD100A173F6 /* Controller-Preferences.plist in Resources */,
+				83E7030717A97BD100A173F6 /* Keyboard-Mappings.plist in Resources */,
+				83E7030A17A97BF500A173F6 /* controller_ngc.png in Resources */,
+				83E7030B17A97BF500A173F6 /* gamecube_library.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6936,6 +7032,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83E702EF17A97B5500A173F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E7031217A97C9400A173F6 /* OEGCSystemController.m in Sources */,
+				83E7031317A97C9400A173F6 /* OEGCSystemResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83F831EF17A7FBE000DDC050 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -7404,6 +7509,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		83E702F817A97B5600A173F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E702F917A97B5600A173F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		83F831FE17A7FBE000DDC050 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -11043,6 +11156,156 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = RelWithDebInfo;
+		};
+		83E702FC17A97B5600A173F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/OpenEmu-djsragygjxzmgeczjflfxtnvukzy/Build/Products/Release\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameCube/GameCube-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GameCube/GameCube-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Systems/";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = oesystemplugin;
+			};
+			name = Debug;
+		};
+		83E702FD17A97B5600A173F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/OpenEmu-djsragygjxzmgeczjflfxtnvukzy/Build/Products/Release\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameCube/GameCube-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GameCube/GameCube-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Systems/";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = oesystemplugin;
+			};
+			name = Release;
+		};
+		83E702FE17A97B5600A173F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/OpenEmu-djsragygjxzmgeczjflfxtnvukzy/Build/Products/Release\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameCube/GameCube-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GameCube/GameCube-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Systems/";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = oesystemplugin;
+			};
+			name = MinSizeRel;
+		};
+		83E702FF17A97B5600A173F6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/OpenEmu-djsragygjxzmgeczjflfxtnvukzy/Build/Products/Release\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameCube/GameCube-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GameCube/GameCube-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Systems/";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = oesystemplugin;
 			};
 			name = RelWithDebInfo;
 		};
@@ -15556,6 +15819,18 @@
 				83E702E917A9791200A173F6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83E7030017A97B5600A173F6 /* Build configuration list for PBXNativeTarget "GameCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E702FC17A97B5600A173F6 /* Debug */,
+				83E702FD17A97B5600A173F6 /* Release */,
+				83E702FE17A97B5600A173F6 /* MinSizeRel */,
+				83E702FF17A97B5600A173F6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		83F8320217A7FBE000DDC050 /* Build configuration list for PBXNativeTarget "Dolphin" */ = {
 			isa = XCConfigurationList;

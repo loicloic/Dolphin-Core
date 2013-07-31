@@ -24,35 +24,30 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <Cocoa/Cocoa.h>
+#import "OEGCSystemResponder.h"
+#import "OEGCSystemResponderClient.h"
 
-@protocol OESystemResponderClient;
+@implementation OEGCSystemResponder
+@dynamic client;
 
-typedef enum _OEGCButton
++ (Protocol *)gameSystemResponderClientProtocol;
 {
-    OEGCButtonUp,
-    OEGCButtonDown,
-    OEGCButtonLeft,
-    OEGCButtonRight,
-    OEGCAnalogUp,
-    OEGCAnalogDown,
-    OEGCAnalogLeft,
-    OEGCAnalogRight,
-    OEGCButtonTriangle,
-    OEGCButtonCircle,
-    OEGCButtonCross,
-    OEGCButtonSquare,
-    OEGCButtonL1,
-    OEGCButtonR1,
-    OEGCButtonStart,
-    OEGCButtonSelect,
-    OEGCButtonCount
-} OEGCButton;
+    return @protocol(OEGCSystemResponderClient);
+}
 
-@protocol OEGCSystemResponderClient <OESystemResponderClient, NSObject>
+- (void)changeAnalogEmulatorKey:(OESystemKey *)aKey value:(CGFloat)value
+{
+    [[self client] didMoveGCJoystickDirection:(OEGCButton)[aKey key] withValue:value forPlayer:aKey.player];
+}
 
-- (oneway void)didMovePSPJoystickDirection:(OEGCButton)button withValue:(CGFloat)value forPlayer:(NSUInteger)player;
-- (oneway void)didPushPSPButton:(OEGCButton)button forPlayer:(NSUInteger)player;
-- (oneway void)didReleasePSPButton:(OEGCButton)button forPlayer:(NSUInteger)player;
+- (void)pressEmulatorKey:(OESystemKey *)aKey
+{
+    [[self client] didPushGCButton:(OEGCButton)[aKey key] forPlayer:[aKey player]];
+}
+
+- (void)releaseEmulatorKey:(OESystemKey *)aKey
+{
+    [[self client] didReleaseGCButton:(OEGCButton)[aKey key] forPlayer:[aKey player]];
+}
 
 @end
