@@ -27,6 +27,28 @@
 #import "DolphinGameCore.h"
 #import <OpenEmuBase/OERingBuffer.h>
 
+#import <OpenEmuBase/OERingBuffer.h>
+#import <OpenGL/gl.h>
+#import <OpenGL/OpenGL.h>
+#import <OpenGL/CGLContext.h>
+#import <OpenGL/CGLCurrent.h>
+#import <OpenGL/CGLTypes.h>
+
+#include "Common.h"
+#include "FileUtil.h"
+
+#include "Core.h"
+#include "Host.h"
+#include "CPUDetect.h"
+
+#include "Thread.h"
+#include "PowerPC.h"
+
+#include "VideoBackendBase.h"
+#include "ConfigManager.h"
+#include "LogManager.h"
+#include "BootManager.h"
+
 #define SAMPLERATE 44100
 #define SIZESOUNDBUFFER 44100 / 60 * 4
 
@@ -161,5 +183,42 @@ const int buttonMap[] = { CTRL_UP, CTRL_DOWN, CTRL_LEFT, CTRL_RIGHT, 0, 0, 0, 0,
     __CtrlButtonUp(buttonMap[button]);
 }
 */
+
+#pragma mark -
+void Host_GetRenderWindowSize(int& x, int& y, int& width, int& height)
+{
+	x = 0;
+	y = 0;
+	width = 640;
+	height = 480;
+}
+
+void Host_SetStartupDebuggingParameters()
+{
+    SCoreStartupParameter& StartUp = SConfig::GetInstance().m_LocalCoreStartupParameter;
+	StartUp.bEnableDebugging = false;
+	StartUp.bBootToPause = false;
+    StartUp.bWii = false;
+}
+#pragma mark - Dolphin callback stubs
+void Host_NotifyMapLoaded(){}
+void Host_RefreshDSPDebuggerWindow(){}
+void Host_ShowJitResults(unsigned int address){}
+void Host_Message(int Id){}
+void* Host_GetRenderHandle(){ return NULL; }
+void* Host_GetInstance(){ return NULL; }
+void Host_UpdateTitle(const char* title){};
+void Host_UpdateLogDisplay(){}
+void Host_UpdateDisasmDialog(){}
+void Host_UpdateMainFrame(){}
+void Host_UpdateBreakPointView(){}
+bool Host_GetKeyState(int keycode){	return false; }
+void Host_RequestRenderWindowSize(int width, int height){}
+bool Host_RendererHasFocus(){ return NO; }
+void Host_ConnectWiimote(int wm_idx, bool connect){}
+void Host_SetWaitCursor(bool enable){}
+void Host_UpdateStatusBar(const char* _pText, int Filed){}
+void Host_SysMessage(const char *fmt, ...) {}
+void Host_SetWiiMoteConnectionState(int _State){}
 
 @end
