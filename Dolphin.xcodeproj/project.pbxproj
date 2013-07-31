@@ -297,6 +297,7 @@
 		819E1E36E6DF4B43A20F2026 /* GLUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE6AFAAC295F40D5ADE2EFEE /* GLUtil.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		82C5ED4AFE4B4767994EA586 /* DSPSymbols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EFE8B8065A4456AA80C0DCB /* DSPSymbols.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		8331AF5A9CB54E06A48CA592 /* DPL2Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9540F70FB67E4BBC8C666E28 /* DPL2Decoder.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		83688EC817A9598700EB0BE2 /* DolphinGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83688EC717A9598700EB0BE2 /* DolphinGameCore.mm */; };
 		83F831F617A7FBE000DDC050 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F831F517A7FBE000DDC050 /* Cocoa.framework */; };
 		83F8320017A7FBE000DDC050 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F831FE17A7FBE000DDC050 /* InfoPlist.strings */; };
 		84A85465717B493FAA4868F2 /* DspIntArithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61280CAA487D439FAA593EFF /* DspIntArithmetic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -1110,13 +1111,14 @@
 		805F10D469A04FC4A2CD31AA /* upnpreplyparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = upnpreplyparse.c; path = Externals/miniupnpc/src/upnpreplyparse.c; sourceTree = "<group>"; };
 		80EAE88BFE09421CB5961248 /* DSPJitExtOps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DSPJitExtOps.cpp; path = Source/Core/Core/Src/DSP/Jit/DSPJitExtOps.cpp; sourceTree = "<group>"; };
 		81D57DE6C5B4451B8B5D2CFE /* Clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Clipper.cpp; path = Source/Plugins/Plugin_VideoSoftware/Src/Clipper.cpp; sourceTree = "<group>"; };
+		83688EC617A9598600EB0BE2 /* DolphinGameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DolphinGameCore.h; sourceTree = "<group>"; };
+		83688EC717A9598700EB0BE2 /* DolphinGameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DolphinGameCore.mm; sourceTree = "<group>"; };
 		83B15CC5F9804A4488B3641D /* Jit_LoadStorePaired.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Jit_LoadStorePaired.cpp; path = Source/Core/Core/Src/PowerPC/Jit64/Jit_LoadStorePaired.cpp; sourceTree = "<group>"; };
 		83F831F317A7FBE000DDC050 /* Dolphin.oecoreplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolphin.oecoreplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F831F517A7FBE000DDC050 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		83F831F817A7FBE000DDC050 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		83F831F917A7FBE000DDC050 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		83F831FA17A7FBE000DDC050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		83F831FD17A7FBE000DDC050 /* Dolphin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dolphin-Info.plist"; sourceTree = "<group>"; };
 		83F831FF17A7FBE000DDC050 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83F8320117A7FBE000DDC050 /* Dolphin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dolphin-Prefix.pch"; sourceTree = "<group>"; };
 		83F8320817A803D800DDC050 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
@@ -1891,6 +1893,8 @@
 		83F831EB17A7FBB500DDC050 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				83688EC617A9598600EB0BE2 /* DolphinGameCore.h */,
+				83688EC717A9598700EB0BE2 /* DolphinGameCore.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1918,7 +1922,6 @@
 		83F831FC17A7FBE000DDC050 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83F831FD17A7FBE000DDC050 /* Dolphin-Info.plist */,
 				83F831FE17A7FBE000DDC050 /* InfoPlist.strings */,
 				83F8320117A7FBE000DDC050 /* Dolphin-Prefix.pch */,
 			);
@@ -3181,6 +3184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83688EC817A9598700EB0BE2 /* DolphinGameCore.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7271,7 +7275,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dolphin/Dolphin-Prefix.pch";
+				GCC_PREFIX_HEADER = "Dolphin-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					OPENEMU,
@@ -7308,7 +7312,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dolphin/Dolphin-Prefix.pch";
+				GCC_PREFIX_HEADER = "Dolphin-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'USER_DIR=\".dolphin-emu\"'",
@@ -7356,7 +7360,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dolphin/Dolphin-Prefix.pch";
+				GCC_PREFIX_HEADER = "Dolphin-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'USER_DIR=\".dolphin-emu\"'",
@@ -7404,7 +7408,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dolphin/Dolphin-Prefix.pch";
+				GCC_PREFIX_HEADER = "Dolphin-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'USER_DIR=\".dolphin-emu\"'",
