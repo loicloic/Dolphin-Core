@@ -645,6 +645,118 @@
 			remoteGlobalIDString = F9B61A2AEBEF4F2DBB7EE7F6;
 			remoteInfo = inputcommon;
 		};
+		83688EA617A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F392D06DB7427F992B8D23;
+			remoteInfo = bdisasm;
+		};
+		83688EA817A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC46A6C03B141148CCA028E;
+			remoteInfo = lzo2;
+		};
+		83688EAA17A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E85116C70F742D8A30D3A56;
+			remoteInfo = SoundTouch;
+		};
+		83688EAC17A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37AB6F0BA33E4D7EB7B13BE1;
+			remoteInfo = SDL;
+		};
+		83688EAE17A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0422E8E1C8F0466B8D9F620F;
+			remoteInfo = "sfml-network";
+		};
+		83688EB017A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE9AEFAB4104AF1B53FD4BC;
+			remoteInfo = miniupnpc;
+		};
+		83688EB217A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0237F7E8B824ED99A0F228F;
+			remoteInfo = SOIL;
+		};
+		83688EB417A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B300BC07493424AA1676CD7;
+			remoteInfo = GLEW;
+		};
+		83688EB617A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DDD0651926495E81728AD9;
+			remoteInfo = audiocommon;
+		};
+		83688EB817A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C5E5A0A4A04CEBAD55D89E;
+			remoteInfo = common;
+		};
+		83688EBA17A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A4B9D3CC1E446969B85DAEF;
+			remoteInfo = core;
+		};
+		83688EBC17A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE924C9F23AB48F7BF4A1B61;
+			remoteInfo = discio;
+		};
+		83688EBE17A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B61A2AEBEF4F2DBB7EE7F6;
+			remoteInfo = inputcommon;
+		};
+		83688EC017A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28BCE4DA76B2477E8264AC36;
+			remoteInfo = videocommon;
+		};
+		83688EC217A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED0F672659547329FC8BF40;
+			remoteInfo = videoogl;
+		};
+		83688EC417A9584500EB0BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92DDD8BB75E4368B82B8239;
+			remoteInfo = videosoftware;
+		};
 		84D86DCA69B747139D71DBD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
@@ -2262,6 +2374,22 @@
 			buildRules = (
 			);
 			dependencies = (
+				83688EA717A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EA917A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EAB17A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EAD17A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EAF17A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EB117A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EB317A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EB517A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EB717A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EB917A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EBB17A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EBD17A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EBF17A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EC117A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EC317A9584500EB0BE2 /* PBXTargetDependency */,
+				83688EC517A9584500EB0BE2 /* PBXTargetDependency */,
 			);
 			name = Dolphin;
 			productName = Dolphin;
@@ -3346,6 +3474,86 @@
 			isa = PBXTargetDependency;
 			target = 0E85116C70F742D8A30D3A56 /* SoundTouch */;
 			targetProxy = E65DF323180048368D1CE5A7 /* PBXContainerItemProxy */;
+		};
+		83688EA717A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F392D06DB7427F992B8D23 /* bdisasm */;
+			targetProxy = 83688EA617A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EA917A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC46A6C03B141148CCA028E /* lzo2 */;
+			targetProxy = 83688EA817A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EAB17A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E85116C70F742D8A30D3A56 /* SoundTouch */;
+			targetProxy = 83688EAA17A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EAD17A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37AB6F0BA33E4D7EB7B13BE1 /* SDL */;
+			targetProxy = 83688EAC17A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EAF17A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0422E8E1C8F0466B8D9F620F /* sfml-network */;
+			targetProxy = 83688EAE17A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EB117A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE9AEFAB4104AF1B53FD4BC /* miniupnpc */;
+			targetProxy = 83688EB017A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EB317A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0237F7E8B824ED99A0F228F /* SOIL */;
+			targetProxy = 83688EB217A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EB517A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B300BC07493424AA1676CD7 /* GLEW */;
+			targetProxy = 83688EB417A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EB717A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DDD0651926495E81728AD9 /* audiocommon */;
+			targetProxy = 83688EB617A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EB917A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C5E5A0A4A04CEBAD55D89E /* common */;
+			targetProxy = 83688EB817A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EBB17A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A4B9D3CC1E446969B85DAEF /* core */;
+			targetProxy = 83688EBA17A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EBD17A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE924C9F23AB48F7BF4A1B61 /* discio */;
+			targetProxy = 83688EBC17A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EBF17A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B61A2AEBEF4F2DBB7EE7F6 /* inputcommon */;
+			targetProxy = 83688EBE17A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EC117A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28BCE4DA76B2477E8264AC36 /* videocommon */;
+			targetProxy = 83688EC017A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EC317A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED0F672659547329FC8BF40 /* videoogl */;
+			targetProxy = 83688EC217A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83688EC517A9584500EB0BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B92DDD8BB75E4368B82B8239 /* videosoftware */;
+			targetProxy = 83688EC417A9584500EB0BE2 /* PBXContainerItemProxy */;
 		};
 		87C01062DCE34010940E87F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -7073,7 +7281,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Dolphin-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7121,7 +7329,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Dolphin-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7169,7 +7377,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Dolphin-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7217,7 +7425,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Dolphin-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/OpenEmu/Cores";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
