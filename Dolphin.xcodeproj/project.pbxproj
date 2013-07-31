@@ -68,6 +68,18 @@
 			name = install;
 			productName = install;
 		};
+		83E702E517A9791100A173F6 /* Build & Install Dolphin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 83E702EA17A9791200A173F6 /* Build configuration list for PBXAggregateTarget "Build & Install Dolphin" */;
+			buildPhases = (
+				83E702EE17A9792F00A173F6 /* ShellScript */,
+			);
+			dependencies = (
+				83E702ED17A9792200A173F6 /* PBXTargetDependency */,
+			);
+			name = "Build & Install Dolphin";
+			productName = "Build & Install Dolphin";
+		};
 		CAAA08C8A9464D91A4812F4D /* CopyDataIntoBundle */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 6007E48CB4C24AD6B07DC4F6 /* Build configuration list for PBXAggregateTarget "CopyDataIntoBundle" */;
@@ -783,6 +795,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B92DDD8BB75E4368B82B8239;
 			remoteInfo = videosoftware;
+		};
+		83E702EC17A9792200A173F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48E987BC49A485F93795A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F831F217A7FBE000DDC050;
+			remoteInfo = Dolphin;
 		};
 		84D86DCA69B747139D71DBD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -6285,6 +6304,7 @@
 				EED0F672659547329FC8BF40 /* videoogl */,
 				B92DDD8BB75E4368B82B8239 /* videosoftware */,
 				83F831F217A7FBE000DDC050 /* Dolphin */,
+				83E702E517A9791100A173F6 /* Build & Install Dolphin */,
 			);
 		};
 /* End PBXProject section */
@@ -6429,6 +6449,19 @@
 			shellPath = /bin/sh;
 			shellScript = "make -C $SRCROOT/Core/Source/Core/AudioCommon -f $SRCROOT/Core/Source/Core/AudioCommon/CMakeScripts/audiocommon_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
+		};
+		83E702EE17A9792F00A173F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$USER_LIBRARY_DIR/Application Support/OpenEmu/Cores\"\nrm -rf \"$USER_LIBRARY_DIR/Application Support/OpenEmu/Cores/$PROJECT_NAME.oecoreplugin\"{,.dSYM}\ncp -rf \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.oecoreplugin\"{,.dSYM} \"$USER_LIBRARY_DIR/Application Support/OpenEmu/Cores/\"\n";
 		};
 		9A03250BF6C34AE8B2A4B047 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -7282,6 +7315,11 @@
 			isa = PBXTargetDependency;
 			target = B92DDD8BB75E4368B82B8239 /* videosoftware */;
 			targetProxy = 83688EC417A9584500EB0BE2 /* PBXContainerItemProxy */;
+		};
+		83E702ED17A9792200A173F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F831F217A7FBE000DDC050 /* Dolphin */;
+			targetProxy = 83E702EC17A9792200A173F6 /* PBXContainerItemProxy */;
 		};
 		87C01062DCE34010940E87F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -10979,6 +11017,34 @@
 				);
 			};
 			name = MinSizeRel;
+		};
+		83E702E617A9791200A173F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83E702E717A9791200A173F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83E702E817A9791200A173F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = MinSizeRel;
+		};
+		83E702E917A9791200A173F6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = RelWithDebInfo;
 		};
 		83F8320317A7FBE000DDC050 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -15480,6 +15546,16 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
+		};
+		83E702EA17A9791200A173F6 /* Build configuration list for PBXAggregateTarget "Build & Install Dolphin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E702E617A9791200A173F6 /* Debug */,
+				83E702E717A9791200A173F6 /* Release */,
+				83E702E817A9791200A173F6 /* MinSizeRel */,
+				83E702E917A9791200A173F6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		83F8320217A7FBE000DDC050 /* Build configuration list for PBXNativeTarget "Dolphin" */ = {
 			isa = XCConfigurationList;

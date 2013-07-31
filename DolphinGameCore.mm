@@ -53,28 +53,49 @@
 #define SIZESOUNDBUFFER 44100 / 60 * 4
 
 @interface DolphinGameCore () <OEGCSystemResponderClient>
-{
-    
-}
+{}
+@property (copy) NSString *filePath;
 @end
 
-@implementation DolphinGameCore
+DolphinGameCore *g_core;
 
+@implementation DolphinGameCore
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        g_core = self;
+    }
+    return self;
+}
 # pragma mark - Execution
 
 - (BOOL)loadFileAtPath:(NSString *)path
 {
-    return YES;
+    self.filePath = path;
+
+    LogManager::Init();
+	SConfig::Init();
+	VideoBackend::PopulateList();
+	VideoBackend::ActivateBackend(SConfig::GetInstance(). m_LocalCoreStartupParameter.m_strVideoBackend);
+
+    const char * cpath = [[self filePath] cStringUsingEncoding:NSUTF8StringEncoding];
+	return BootManager::BootCore(cpath);
 }
 
 - (void)setupEmulation
 {
-
+    Core::SetState(Core::CORE_RUN);
 }
 
 - (void)stopEmulation
 {
-
+    Core::Stop();
+    while (PowerPC::GetState() != PowerPC::CPU_POWERDOWN)
+		[NSThread sleepForTimeInterval:0.1];
+	VideoBackend::ClearList();
+	SConfig::Shutdown();
+	LogManager::Shutdown();
 }
 
 - (void)resetEmulation
@@ -84,6 +105,7 @@
 
 - (void)executeFrame
 {
+    [NSThread sleepForTimeInterval:1/60.0];
     /*
     if(!isInitialized)
     {
@@ -119,6 +141,12 @@
     */
 }
 
+- (void)setPauseEmulation:(BOOL)flag
+{
+    [super setPauseEmulation:flag];
+    Core::EState state = flag ? Core::CORE_PAUSE : Core::CORE_RUN;
+	Core::SetState(state);
+}
 # pragma mark - Video
 
 - (BOOL)rendersToOpenGL
@@ -195,9 +223,10 @@ void Host_GetRenderWindowSize(int& x, int& y, int& width, int& height)
 
 void Host_SetStartupDebuggingParameters()
 {
+    NSLog(@"DolphinCore: Set Startup Debugging Parameters");
     SCoreStartupParameter& StartUp = SConfig::GetInstance().m_LocalCoreStartupParameter;
 	StartUp.bEnableDebugging = false;
-	StartUp.bBootToPause = false;
+	StartUp.bBootToPause = true;
     StartUp.bWii = false;
 }
 #pragma mark - Dolphin callback stubs
