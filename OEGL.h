@@ -17,11 +17,6 @@
 #ifndef _INTERFACEAGL_H_
 #define _INTERFACEAGL_H_
 
-#if defined(__APPLE__) && !defined(OPENEMU)
-#include <GL/glew.h>
-#import <AppKit/AppKit.h>
-#endif
-
 #include "InterfaceBase.h"
 
 class cInterfaceAGL : public cInterfaceBase
