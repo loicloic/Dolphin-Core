@@ -14,26 +14,47 @@
 
 // Official SVN repository and contact information can be found at
 // http://code.google.com/p/dolphin-emu/
-#ifndef _INTERFACEAGL_H_
-#define _INTERFACEAGL_H_
 
-#if defined(__APPLE__) && !defined(OPENEMU)
-#include <GL/glew.h>
-#import <AppKit/AppKit.h>
-#endif
+#include "VideoConfig.h"
+#include "Host.h"
+#include "RenderBase.h"
+#include "ConfigManager.h"
+#include "VertexShaderManager.h"
+#include "GLInterface.h"
+#include "OEGL.h"
 
-#include "InterfaceBase.h"
-
-class cInterfaceAGL : public cInterfaceBase
+void cInterfaceAGL::Swap()
 {
-public:
-	void Swap();
-	bool Create(void *&window_handle);
-	bool MakeCurrent();
-	bool ClearCurrent();
-	void Shutdown();
-	void Update();
+}
 
-};
-#endif
+// Create rendering window.
+//		Call browser: Core.cpp:EmuThread() > main.cpp:Video_Initialize()
+bool cInterfaceAGL::Create(void *&window_handle)
+{
+	return true;
+}
+
+bool cInterfaceAGL::MakeCurrent()
+{
+	return true;
+}
+
+bool cInterfaceAGL::ClearCurrent()
+{
+	// not tested at all
+	//clearCurrentContext();
+	return true;
+}
+
+// Close backend
+void cInterfaceAGL::Shutdown()
+{
+
+}
+
+void cInterfaceAGL::Update()
+{
+
+}
+
 

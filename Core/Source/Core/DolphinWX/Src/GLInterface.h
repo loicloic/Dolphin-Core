@@ -17,6 +17,8 @@
 #include "GLInterface/EGL.h"
 #elif defined(USE_EGL) && USE_EGL
 #include "GLInterface/EGL.h"
+#elif defined(OPENEMU)
+#include "OEGL.h"
 #elif defined(__APPLE__)
 #include "GLInterface/AGL.h"
 #elif defined(_WIN32)
@@ -35,6 +37,8 @@ typedef struct {
 	EGLDisplay egl_dpy;
 	int x, y;
 	unsigned int width, height;
+#elif defined(OPENEMU)
+
 #elif defined(__APPLE__)
 	NSView *cocoaWin;
 	NSOpenGLContext *cocoaCtx;

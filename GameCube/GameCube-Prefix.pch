@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GameCube' target in the 'GameCube' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
